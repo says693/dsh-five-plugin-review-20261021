@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:6264/",
+  "htmlAttrs": {
+    "lang": "zh-CN",
+    "data-ds-theme-source": "system",
+    "style": "color-scheme: light;"
+  },
+  "bodyAttrs": {
+    "style": "--dsh-content-font-size: 14px;"
+  },
+  "bodyStyle": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(15, 17, 21)",
+    "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, san"
+  },
+  "pluginStyleNode": false,
+  "claudeStyleIds": [],
+  "claudeNodes": 0,
+  "text": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh\n添加一个 API Key 开始使用\n\n配置 DeepSeek 官方模型，即可开始使用。\n\nAPI 密钥\n稍后配置\n保存并继续",
+  "nav": [
+    "新建会话",
+    "收起侧边栏",
+    "新建会话",
+    "插件",
+    "搜索会话",
+    "视图选项",
+    "添加工作区",
+    "设置",
+    "打开右侧边栏",
+    "选择工作区",
+    "标准模式",
+    "添加文件或调用指令",
+    "访问模式，当前：完全权限",
+    "选择模型，当前 DeepSeek-V41-Fla",
+    "发送消息",
+    "稍后配置",
+    "保存并继续"
+  ],
+  "assets": []
+}

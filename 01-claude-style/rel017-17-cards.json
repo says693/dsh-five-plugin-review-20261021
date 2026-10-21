@@ -1,0 +1,260 @@
+{
+  "at360": {
+    "viewport": {
+      "w": 360,
+      "h": 900
+    },
+    "doc": {
+      "scrollWidth": 360,
+      "clientWidth": 360
+    },
+    "rowRect": {
+      "x": 80,
+      "y": 508,
+      "w": 246,
+      "h": 136,
+      "right": 326
+    },
+    "rowStyle": {
+      "display": "grid",
+      "gridTemplate": "246px",
+      "gap": "8px",
+      "flexWrap": "nowrap",
+      "overflow": "visible"
+    },
+    "cards": [
+      {
+        "name": "DeepSeek",
+        "rect": {
+          "x": 80,
+          "y": 508,
+          "w": 246,
+          "h": 64,
+          "right": 326
+        },
+        "scrollW": 244,
+        "clientW": 244,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "svg.[object SVGAnimatedString]"
+      },
+      {
+        "name": "Claude",
+        "rect": {
+          "x": 80,
+          "y": 580,
+          "w": 246,
+          "h": 64,
+          "right": 326
+        },
+        "scrollW": 244,
+        "clientW": 244,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "SPAN.dsh-claude-brand-card-word dsh-claude-ma"
+      }
+    ]
+  },
+  "at480": {
+    "viewport": {
+      "w": 480,
+      "h": 900
+    },
+    "doc": {
+      "scrollWidth": 480,
+      "clientWidth": 480
+    },
+    "rowRect": {
+      "x": 80,
+      "y": 438,
+      "w": 366,
+      "h": 64,
+      "right": 446
+    },
+    "rowStyle": {
+      "display": "grid",
+      "gridTemplate": "179px 179px",
+      "gap": "8px",
+      "flexWrap": "nowrap",
+      "overflow": "visible"
+    },
+    "cards": [
+      {
+        "name": "DeepSeek",
+        "rect": {
+          "x": 80,
+          "y": 438,
+          "w": 179,
+          "h": 64,
+          "right": 259
+        },
+        "scrollW": 194,
+        "clientW": 177,
+        "clipped": true,
+        "innerOverflow": [
+          {
+            "tag": "svg",
+            "right": 275,
+            "clippedByParent": -16
+          },
+          {
+            "tag": "g",
+            "right": 275,
+            "clippedByParent": -16
+          },
+          {
+            "tag": "g",
+            "right": 275,
+            "clippedByParent": -16
+          },
+          {
+            "tag": "g",
+            "right": 275,
+            "clippedByParent": -16
+          },
+          {
+            "tag": "path",
+            "right": 275,
+            "clippedByParent": -16
+          }
+        ],
+        "hitSelf": true,
+        "hit": "path.[object SVGAnimatedString]"
+      },
+      {
+        "name": "Claude",
+        "rect": {
+          "x": 267,
+          "y": 438,
+          "w": 179,
+          "h": 64,
+          "right": 446
+        },
+        "scrollW": 177,
+        "clientW": 177,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "SPAN.dsh-claude-brand-card-word dsh-claude-ma"
+      }
+    ]
+  },
+  "at600": {
+    "viewport": {
+      "w": 600,
+      "h": 900
+    },
+    "doc": {
+      "scrollWidth": 600,
+      "clientWidth": 600
+    },
+    "rowRect": {
+      "x": 80,
+      "y": 438,
+      "w": 486,
+      "h": 64,
+      "right": 566
+    },
+    "rowStyle": {
+      "display": "grid",
+      "gridTemplate": "239px 239px 0px",
+      "gap": "8px",
+      "flexWrap": "nowrap",
+      "overflow": "visible"
+    },
+    "cards": [
+      {
+        "name": "DeepSeek",
+        "rect": {
+          "x": 80,
+          "y": 438,
+          "w": 239,
+          "h": 64,
+          "right": 319
+        },
+        "scrollW": 237,
+        "clientW": 237,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "svg.[object SVGAnimatedString]"
+      },
+      {
+        "name": "Claude",
+        "rect": {
+          "x": 327,
+          "y": 438,
+          "w": 239,
+          "h": 64,
+          "right": 566
+        },
+        "scrollW": 237,
+        "clientW": 237,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "SPAN.dsh-claude-brand-card-word dsh-claude-ma"
+      }
+    ]
+  },
+  "at1000": {
+    "viewport": {
+      "w": 1000,
+      "h": 900
+    },
+    "doc": {
+      "scrollWidth": 1000,
+      "clientWidth": 1000
+    },
+    "rowRect": {
+      "x": 96,
+      "y": 416,
+      "w": 854,
+      "h": 64,
+      "right": 950
+    },
+    "rowStyle": {
+      "display": "grid",
+      "gridTemplate": "423px 423px 0px 0px 0px 0px",
+      "gap": "8px",
+      "flexWrap": "nowrap",
+      "overflow": "visible"
+    },
+    "cards": [
+      {
+        "name": "DeepSeek",
+        "rect": {
+          "x": 96,
+          "y": 416,
+          "w": 423,
+          "h": 64,
+          "right": 519
+        },
+        "scrollW": 421,
+        "clientW": 421,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "svg.[object SVGAnimatedString]"
+      },
+      {
+        "name": "Claude",
+        "rect": {
+          "x": 527,
+          "y": 416,
+          "w": 423,
+          "h": 64,
+          "right": 950
+        },
+        "scrollW": 421,
+        "clientW": 421,
+        "clipped": false,
+        "innerOverflow": [],
+        "hitSelf": true,
+        "hit": "SPAN.dsh-claude-brand-card-word dsh-claude-ma"
+      }
+    ]
+  }
+}

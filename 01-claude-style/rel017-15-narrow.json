@@ -1,0 +1,1423 @@
+{
+  "convoState": {
+    "url": "http://127.0.0.1:7025/",
+    "text": "新会话\nCtrl\nAlt\nN\n插件\n工作区\n默认工作区\n新会话\nUSER\nWhat's up next, USER?\n默认工作区\n标准模式\n概览\n模型\n全部\n30 天\n7 天\n会话数\n0\n消息数\n0\nToken 总量\n0\n活跃天数\n0\n高峰时段\n—\n最常用模型\n—\nHow can I help you today?\n完全权限\nDeepSeek-V41-Flash\nHigh",
+    "hasComposer": true,
+    "selected": null
+  },
+  "home": {
+    "480": {
+      "label": "home-480",
+      "viewport": {
+        "w": 480,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 480,
+        "clientWidth": 480,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-holds": "sidebar-rail",
+        "data-dsh-claude-session-stats": ""
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 418,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 431,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 267,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 340,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 87,
+            "y": 818,
+            "w": 328,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 251,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 300,
+          "right": 684,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    },
+    "600": {
+      "label": "home-600",
+      "viewport": {
+        "w": 600,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 600,
+        "clientWidth": 600,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-holds": "sidebar-rail",
+        "data-dsh-claude-session-stats": ""
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 538,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 551,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 387,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 460,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 87,
+            "y": 818,
+            "w": 448,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 311,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 420,
+          "right": 804,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    },
+    "760": {
+      "label": "home-760",
+      "viewport": {
+        "w": 760,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 760,
+        "clientWidth": 760,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-holds": "sidebar-rail",
+        "data-dsh-claude-session-stats": ""
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 698,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 711,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 547,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 620,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 87,
+            "y": 818,
+            "w": 608,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 391,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 580,
+          "right": 964,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    },
+    "1000": {
+      "label": "home-1000",
+      "viewport": {
+        "w": 1000,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 1000,
+        "clientWidth": 1000,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-holds": "sidebar-rail",
+        "data-dsh-claude-session-stats": ""
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 832,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 845,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 681,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 754,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 193,
+            "y": 818,
+            "w": 636,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 511,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 714,
+          "right": 1098,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    }
+  },
+  "conversation": {
+    "480": {
+      "label": "conversation-480",
+      "viewport": {
+        "w": 480,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 480,
+        "clientWidth": 480,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 418,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 431,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 267,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 340,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 87,
+            "y": 818,
+            "w": 328,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 251,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 300,
+          "right": 684,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    },
+    "600": {
+      "label": "conversation-600",
+      "viewport": {
+        "w": 600,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 600,
+        "clientWidth": 600,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 538,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 551,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 387,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 460,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 87,
+            "y": 818,
+            "w": 448,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 311,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 324,
+          "right": 708,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    },
+    "760": {
+      "label": "conversation-760",
+      "viewport": {
+        "w": 760,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 760,
+        "clientWidth": 760,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 698,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 711,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 547,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 620,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 87,
+            "y": 818,
+            "w": 608,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 391,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    },
+    "1000": {
+      "label": "conversation-1000",
+      "viewport": {
+        "w": 1000,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 1000,
+        "clientWidth": 1000,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": {
+          "rect": {
+            "x": 832,
+            "y": 816,
+            "w": 26,
+            "h": 26
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 845,
+            "cy": 829
+          }
+        },
+        "modelPicker": {
+          "rect": {
+            "x": 681,
+            "y": 856,
+            "w": 146,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 754,
+            "cy": 870
+          }
+        },
+        "composer": {
+          "rect": {
+            "x": 193,
+            "y": 818,
+            "w": 636,
+            "h": 24
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 511,
+            "cy": 830
+          }
+        },
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        },
+        {
+          "tag": "SPAN",
+          "cls": "dsh-claude-crab-strip",
+          "left": 714,
+          "right": 1098,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      }
+    }
+  },
+  "pluginDetail": {
+    "480": {
+      "label": "plugin-detail-480",
+      "viewport": {
+        "w": 480,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 480,
+        "clientWidth": 480,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": null,
+        "modelPicker": null,
+        "composer": null,
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      },
+      "tabs": [
+        {
+          "text": "通用",
+          "right": 139,
+          "left": 82,
+          "w": 57
+        },
+        {
+          "text": "外观",
+          "right": 198,
+          "left": 141,
+          "w": 57
+        },
+        {
+          "text": "输入区",
+          "right": 266,
+          "left": 200,
+          "w": 66
+        },
+        {
+          "text": "侧栏",
+          "right": 326,
+          "left": 268,
+          "w": 57
+        },
+        {
+          "text": "对话",
+          "right": 385,
+          "left": 328,
+          "w": 57
+        },
+        {
+          "text": "动效",
+          "right": 444,
+          "left": 387,
+          "w": 57
+        }
+      ],
+      "togglePairs": [
+        {
+          "text": "关闭",
+          "right": 134,
+          "left": 82
+        }
+      ],
+      "pluginSwitch": null
+    },
+    "600": {
+      "label": "plugin-detail-600",
+      "viewport": {
+        "w": 600,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 600,
+        "clientWidth": 600,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": null,
+        "modelPicker": null,
+        "composer": null,
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      },
+      "tabs": [
+        {
+          "text": "通用",
+          "right": 161,
+          "left": 82,
+          "w": 79
+        },
+        {
+          "text": "外观",
+          "right": 241,
+          "left": 163,
+          "w": 79
+        },
+        {
+          "text": "输入区",
+          "right": 322,
+          "left": 243,
+          "w": 79
+        },
+        {
+          "text": "侧栏",
+          "right": 403,
+          "left": 324,
+          "w": 79
+        },
+        {
+          "text": "对话",
+          "right": 483,
+          "left": 405,
+          "w": 79
+        },
+        {
+          "text": "动效",
+          "right": 564,
+          "left": 485,
+          "w": 79
+        }
+      ],
+      "togglePairs": [
+        {
+          "text": "关闭",
+          "right": 428,
+          "left": 376
+        }
+      ],
+      "pluginSwitch": null
+    },
+    "760": {
+      "label": "plugin-detail-760",
+      "viewport": {
+        "w": 760,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 760,
+        "clientWidth": 760,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": null,
+        "modelPicker": null,
+        "composer": null,
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      },
+      "tabs": [
+        {
+          "text": "通用",
+          "right": 192,
+          "left": 88,
+          "w": 103
+        },
+        {
+          "text": "外观",
+          "right": 297,
+          "left": 194,
+          "w": 103
+        },
+        {
+          "text": "输入区",
+          "right": 402,
+          "left": 299,
+          "w": 103
+        },
+        {
+          "text": "侧栏",
+          "right": 507,
+          "left": 404,
+          "w": 103
+        },
+        {
+          "text": "对话",
+          "right": 612,
+          "left": 509,
+          "w": 103
+        },
+        {
+          "text": "动效",
+          "right": 718,
+          "left": 614,
+          "w": 103
+        }
+      ],
+      "togglePairs": [
+        {
+          "text": "关闭",
+          "right": 582,
+          "left": 530
+        }
+      ],
+      "pluginSwitch": null
+    },
+    "1000": {
+      "label": "plugin-detail-1000",
+      "viewport": {
+        "w": 1000,
+        "h": 900
+      },
+      "doc": {
+        "scrollWidth": 1000,
+        "clientWidth": 1000,
+        "overflowX": false
+      },
+      "bodyAttrs": {
+        "data-dsh-claude-brand": "claude",
+        "data-dsh-claude-palette": "claude",
+        "data-dsh-claude-typeface": "claude",
+        "data-dsh-claude-mascot": "crab",
+        "data-dsh-claude-dock-look": "card",
+        "data-dsh-claude-search-style": "overlay",
+        "data-dsh-claude-sidebar-layout": "relaxed",
+        "data-dsh-claude-ongoing-indicator": "breathe",
+        "data-dsh-claude-stats-position": "context",
+        "data-dsh-claude-status-motion": "sweep",
+        "data-dsh-claude-footer-takeover": "true",
+        "data-dsh-claude-motion": "full",
+        "data-dsh-claude-style": "0538e7351c25",
+        "data-dsh-claude-style-handoff": "0538e7351c25",
+        "data-dsh-claude-home-layout": "studio",
+        "data-dsh-claude-permissions": "",
+        "data-dsh-claude-chat-follow": "",
+        "data-dsh-claude-chat-fold": "",
+        "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 36px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+        "data-dsh-claude-composer-active": "",
+        "data-dsh-claude-session-stats": "",
+        "data-dsh-claude-holds": "sidebar-rail"
+      },
+      "controls": {
+        "plugins": {
+          "rect": {
+            "x": 10,
+            "y": 162,
+            "w": 35,
+            "h": 28
+          },
+          "click": {
+            "ok": true,
+            "hit": null,
+            "cx": 28,
+            "cy": 176
+          }
+        },
+        "newSessionRow": null,
+        "viewOptions": null,
+        "send": null,
+        "modelPicker": null,
+        "composer": null,
+        "account": null,
+        "sidebarToggle": null
+      },
+      "overflowing": [
+        {
+          "tag": "DIV",
+          "cls": "hHd-Xa_footArea",
+          "left": -2,
+          "right": 57,
+          "text": ""
+        }
+      ],
+      "bodyStyle": {
+        "bg": "rgb(252, 252, 251)",
+        "color": "rgb(20, 20, 19)"
+      },
+      "tabs": [
+        {
+          "text": "通用",
+          "right": 238,
+          "left": 98,
+          "w": 140
+        },
+        {
+          "text": "外观",
+          "right": 380,
+          "left": 240,
+          "w": 140
+        },
+        {
+          "text": "输入区",
+          "right": 522,
+          "left": 382,
+          "w": 140
+        },
+        {
+          "text": "侧栏",
+          "right": 664,
+          "left": 524,
+          "w": 140
+        },
+        {
+          "text": "对话",
+          "right": 806,
+          "left": 666,
+          "w": 140
+        },
+        {
+          "text": "动效",
+          "right": 948,
+          "left": 808,
+          "w": 140
+        }
+      ],
+      "togglePairs": [
+        {
+          "text": "关闭",
+          "right": 812,
+          "left": 760
+        }
+      ],
+      "pluginSwitch": null
+    }
+  }
+}

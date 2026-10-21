@@ -1,0 +1,1650 @@
+{
+  "utc": "2026-10-21T11:03:16.701Z",
+  "steps": [
+    {
+      "label": "01-edit-esc-closes-panel",
+      "utc": "2026-10-21T11:03:21.085Z",
+      "result": {
+        "focus": {
+          "tag": "TEXTAREA",
+          "cls": "sn-text",
+          "aria": null
+        },
+        "panelOpen": 0
+      },
+      "state": {
+        "panel": null,
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [],
+        "localStorage": {},
+        "headStatus": null,
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-01-edit-esc-closes-panel.png"
+    },
+    {
+      "label": "02-preview-focus-and-keys",
+      "utc": "2026-10-21T11:03:22.543Z",
+      "result": {
+        "focusInPreview": {
+          "tag": "BODY",
+          "cls": "",
+          "aria": null
+        },
+        "statusEnteringPreview": "预览",
+        "afterEsc": {
+          "textarea": 0,
+          "status": "预览",
+          "panel": 1
+        },
+        "zoomAfterCtrl0": null
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n便签\n预览\n⋯\n历史便签\n发送\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus",
+            "text": "+\n←",
+            "title": "新建便签",
+            "aria": "新建便签",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle",
+            "text": "⋯",
+            "title": "更多操作",
+            "aria": "展开标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist",
+            "text": "历史便签",
+            "title": "历史便签",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-send",
+            "text": "发送",
+            "title": "发送到对话",
+            "aria": null,
+            "rect": {
+              "x": 472,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "预览",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n便签\n预览\n⋯\n历史便签\n发送\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-02-preview-focus-and-keys.png"
+    },
+    {
+      "label": "03-exit-preview-by-clicking-toggle",
+      "utc": "2026-10-21T11:03:25.189Z",
+      "result": {
+        "before": "返回编辑",
+        "textarea": 1,
+        "status": "预览"
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n便签\n预览\n−\n100%\n+\n👁\n✕\n?\n⋯\n历史便签\n发送\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": {
+          "value": "",
+          "rect": {
+            "x": 374,
+            "y": 274,
+            "w": 280,
+            "h": 242
+          },
+          "vis": true
+        },
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus",
+            "text": "+\n←",
+            "title": "新建便签",
+            "aria": "新建便签",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini",
+            "text": "−",
+            "title": "缩小便签（Cmd/Ctrl+-）",
+            "aria": "缩小便签",
+            "rect": {
+              "x": 417,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-zoom-value",
+            "text": "100%",
+            "title": "恢复 100%（Cmd/Ctrl+0）",
+            "aria": "重置便签缩放，当前 100%",
+            "rect": {
+              "x": 441,
+              "y": 242,
+              "w": 40,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini",
+            "text": "+",
+            "title": "放大便签（Cmd/Ctrl++）",
+            "aria": "放大便签",
+            "rect": {
+              "x": 483,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-pin-toggle",
+            "text": "",
+            "title": "固定到屏幕边缘",
+            "aria": "固定便签",
+            "rect": {
+              "x": 512,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini",
+            "text": "👁",
+            "title": "Markdown 预览",
+            "aria": "切换 Markdown 预览",
+            "rect": {
+              "x": 539,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-x",
+            "text": "✕",
+            "title": "关闭",
+            "aria": "关闭便签",
+            "rect": {
+              "x": 566,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-help",
+            "text": "?",
+            "title": "帮助",
+            "aria": "帮助",
+            "rect": {
+              "x": 593,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle sn-on",
+            "text": "⋯",
+            "title": "收起操作",
+            "aria": "收起标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist",
+            "text": "历史便签",
+            "title": "历史便签",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-send",
+            "text": "发送",
+            "title": "发送到对话",
+            "aria": null,
+            "rect": {
+              "x": 472,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "预览",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n便签\n预览\n−\n100%\n+\n👁\n✕\n?\n⋯\n历史便签\n发送\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-03-exit-preview-by-clicking-toggle.png"
+    },
+    {
+      "label": "04-list-esc",
+      "utc": "2026-10-21T11:03:26.325Z",
+      "result": {
+        "focusInList": {
+          "tag": "BUTTON",
+          "cls": "sn-iconbtn sn-hist sn-active",
+          "aria": null
+        },
+        "titleBefore": "历史便签",
+        "titleAfterEsc": "历史便签"
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n历史便签\n预览\n⋯\n双击查看便签\n选择保留\n全部展开\n▸\n点子\n3\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n18:54\nNONDRAFT-EDIT 非草稿便签编辑\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n0\n历史便签\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus sn-plus-back",
+            "text": "+\n←",
+            "title": "返回当前便签",
+            "aria": "返回当前便签",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle",
+            "text": "⋯",
+            "title": "更多操作",
+            "aria": "展开标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "选择保留",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 504,
+              "y": 284,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "全部展开",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 576,
+              "y": 284,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n点子\n3",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 319,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 357,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 395,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 433,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n感想\n2",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 468,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\nTODO\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 503,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n归档\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 538,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist sn-active",
+            "text": "历史便签",
+            "title": "历史便签",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-openfolder",
+            "text": "",
+            "title": "打开便签文件夹",
+            "aria": null,
+            "rect": {
+              "x": 472,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "预览",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n历史便签\n预览\n⋯\n双击查看便签\n选择保留\n全部展开\n▸\n点子\n3\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n18:54\nNONDRAFT-EDIT 非草稿便签编辑\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n0\n历史便签\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-04-list-esc.png"
+    },
+    {
+      "label": "05-view-esc",
+      "utc": "2026-10-21T11:03:28.037Z",
+      "result": {
+        "focusInView": {
+          "tag": "BODY",
+          "cls": "",
+          "aria": null
+        },
+        "titleBefore": "查看",
+        "titleAfterEsc": "查看"
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n查看\n预览\n⋯\n点子\n20261021-190044\n发送\n编辑\n\n切换类别前的点子内容\n\n返回清单\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus sn-plus-back",
+            "text": "+\n←",
+            "title": "返回历史便签清单",
+            "aria": "返回历史便签清单",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle",
+            "text": "⋯",
+            "title": "更多操作",
+            "aria": "展开标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-send-btn",
+            "text": "发送",
+            "title": "发送到对话",
+            "aria": null,
+            "rect": {
+              "x": 538,
+              "y": 284,
+              "w": 48,
+              "h": 24
+            }
+          },
+          {
+            "cls": "sn-note-edit",
+            "text": "编辑",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 592,
+              "y": 283,
+              "w": 50,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist",
+            "text": "返回清单",
+            "title": "返回历史便签清单",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "预览",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n查看\n预览\n⋯\n点子\n20261021-190044\n发送\n编辑\n\n切换类别前的点子内容\n\n返回清单\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-05-view-esc.png"
+    },
+    {
+      "label": "06-archive-note",
+      "utc": "2026-10-21T11:03:29.645Z",
+      "result": {
+        "archivedRow": "18:54\nNONDRAFT-EDIT 非草稿便签编辑\n归档",
+        "list": "双击查看便签\n选择保留\n全部展开\n▸\n点子\n2\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n1",
+        "dirs": {
+          "dianzi": [
+            "20261021-185744.md",
+            "20261021-190044.md"
+          ],
+          "archive": [
+            "点子-20261021-185458.md"
+          ]
+        }
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n历史便签\n预览\n⋯\n双击查看便签\n选择保留\n全部展开\n▸\n点子\n2\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n1\n历史便签\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus sn-plus-back",
+            "text": "+\n←",
+            "title": "返回当前便签",
+            "aria": "返回当前便签",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle",
+            "text": "⋯",
+            "title": "更多操作",
+            "aria": "展开标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "选择保留",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 504,
+              "y": 284,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "全部展开",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 576,
+              "y": 284,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n点子\n2",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 319,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 357,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 395,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n感想\n2",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 430,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\nTODO\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 465,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n归档\n1",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 500,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist sn-active",
+            "text": "历史便签",
+            "title": "历史便签",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-openfolder",
+            "text": "",
+            "title": "打开便签文件夹",
+            "aria": null,
+            "rect": {
+              "x": 472,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "预览",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n历史便签\n预览\n⋯\n双击查看便签\n选择保留\n全部展开\n▸\n点子\n2\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n1\n历史便签\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-06-archive-note.png"
+    },
+    {
+      "label": "07-restore-archived",
+      "utc": "2026-10-21T11:03:31.864Z",
+      "result": {
+        "restoreButtons": 1,
+        "status": "已恢复",
+        "dirs": {
+          "dianzi": [
+            "20261021-185458.md",
+            "20261021-185744.md",
+            "20261021-190044.md"
+          ],
+          "archive": []
+        }
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n历史便签\n已恢复\n⋯\n双击查看便签\n选择保留\n全部展开\n▸\n点子\n3\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n18:54\nNONDRAFT-EDIT 非草稿便签编辑\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n0\n暂无\n历史便签\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus sn-plus-back",
+            "text": "+\n←",
+            "title": "返回当前便签",
+            "aria": "返回当前便签",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle",
+            "text": "⋯",
+            "title": "更多操作",
+            "aria": "展开标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "选择保留",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 504,
+              "y": 221,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "全部展开",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 576,
+              "y": 221,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n点子\n3",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 256,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 294,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 332,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-arch",
+            "text": "归档",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 595,
+              "y": 370,
+              "w": 40,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n感想\n2",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 405,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\nTODO\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 440,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n归档\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 475,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist sn-active",
+            "text": "历史便签",
+            "title": "历史便签",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-openfolder",
+            "text": "",
+            "title": "打开便签文件夹",
+            "aria": null,
+            "rect": {
+              "x": 472,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "已恢复",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n历史便签\n已恢复\n⋯\n双击查看便签\n选择保留\n全部展开\n▸\n点子\n3\n19:00\n切换类别前的点子内容\n归档\n18:57\n笔记B：新建第二条\n归档\n18:54\nNONDRAFT-EDIT 非草稿便签编辑\n归档\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n0\n暂无\n历史便签\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-07-restore-archived.png"
+    },
+    {
+      "label": "08-retain-toggle",
+      "utc": "2026-10-21T11:03:33.765Z",
+      "result": {
+        "status": "已保留",
+        "retained": [
+          "点子/20261021-190044.md"
+        ],
+        "retainRows": 1
+      },
+      "state": {
+        "panel": {
+          "rect": {
+            "x": 373,
+            "y": 232,
+            "w": 282,
+            "h": 332
+          },
+          "cls": "sn-panel",
+          "style": "left: 373.297px; top: 232px; width: 280px; height: 330px; --sn-zoom: 1; --sn-zoom-pop: 0.94;",
+          "text": "+\n←\n历史便签\n已保留\n⋯\n点击条目切换保留\n选择保留\n全部展开\n▸\n点子\n3\n19:00\n切换类别前的点子内容\n保留\n18:57\n笔记B：新建第二条\n18:54\nNONDRAFT-EDIT 非草稿便签编辑\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n0\n暂无\n历史便签\n点子\n▾"
+        },
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [
+          {
+            "cls": "sn-plus sn-plus-back",
+            "text": "+\n←",
+            "title": "返回当前便签",
+            "aria": "返回当前便签",
+            "rect": {
+              "x": 386,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-mini sn-actions-toggle",
+            "text": "⋯",
+            "title": "更多操作",
+            "aria": "展开标题栏操作",
+            "rect": {
+              "x": 620,
+              "y": 242,
+              "w": 22,
+              "h": 22
+            }
+          },
+          {
+            "cls": "sn-toggle-all sn-on",
+            "text": "选择保留",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 504,
+              "y": 284,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-toggle-all",
+            "text": "全部展开",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 576,
+              "y": 284,
+              "w": 66,
+              "h": 21
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n点子\n3",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 319,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n感想\n2",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 472,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\nTODO\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 507,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-cat-head",
+            "text": "▸\n归档\n0",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 384,
+              "y": 542,
+              "w": 260,
+              "h": 29
+            }
+          },
+          {
+            "cls": "sn-rz-corner",
+            "text": "",
+            "title": "拖动调整便签大小",
+            "aria": "调整便签大小",
+            "rect": {
+              "x": 628,
+              "y": 537,
+              "w": 26,
+              "h": 26
+            }
+          },
+          {
+            "cls": "sn-iconbtn sn-hist sn-active",
+            "text": "历史便签",
+            "title": "历史便签",
+            "aria": null,
+            "rect": {
+              "x": 386,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-openfolder",
+            "text": "",
+            "title": "打开便签文件夹",
+            "aria": null,
+            "rect": {
+              "x": 472,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          },
+          {
+            "cls": "sn-badge",
+            "text": "点子\n▾",
+            "title": "",
+            "aria": null,
+            "rect": {
+              "x": 557,
+              "y": 526,
+              "w": 77,
+              "h": 28
+            }
+          }
+        ],
+        "localStorage": {},
+        "headStatus": "已保留",
+        "dialogOpen": false,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\n+\n←\n历史便签\n已保留\n⋯\n点击条目切换保留\n选择保留\n全部展开\n▸\n点子\n3\n19:00\n切换类别前的点子内容\n保留\n18:57\n笔记B：新建第二条\n18:54\nNONDRAFT-EDIT 非草稿便签编辑\n▸\n感想\n2\n▸\nTODO\n0\n▸\n归档\n0\n暂无\n历史便签\n点子\n▾\nDeepSeek-V41-Flash\nHigh"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-08-retain-toggle.png"
+    },
+    {
+      "label": "09-settings-card",
+      "utc": "2026-10-21T11:03:35.668Z",
+      "result": {
+        "dialogText": "设置\n通用设置\n模型\n内置插件\nAgent 预设\n打开配置文件\n关闭\n权限\n选择新会话的默认权限模式\n工作区内修改\n语言\n中文\n外观\n浅色\n深色\n跟随系统\n字号大小\n仅影响会话内容的字号\n14\npx\n工作步骤展示\n选择希望看到多少工具调用细节\n详细\n显示代码工作视图\n开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换\n快捷键\n\n查看和编辑当前可用的快捷键和输入操作\n\n编辑快捷键\n繁忙时的发送行为\n智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为\n排队发送\n性能与用量\n选择性能与用量信息展示的详细程度\n详细\n在使用官方模型 API 时上传 Session Log\n帮助改进 DeepSeek 模型与产品\n当前版本：0.2.0-rc.2"
+      },
+      "state": {
+        "panel": null,
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [],
+        "localStorage": {},
+        "headStatus": null,
+        "dialogOpen": true,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh\n设置\n通用设置\n模型\n内置插件\nAgent 预设\n打开配置文件\n关闭\n权限\n选择新会话的默认权限模式\n工作区内修改\n语言\n中文\n外观\n浅色\n深色\n跟随系统\n字号大小\n仅影响会话内容的字号\n14\npx\n工作步骤展示\n选择希望看到多少工具调用细节\n详细\n显示代码工作视图\n开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换\n快捷键\n\n查看和编辑当前可用的快捷键和输入操作\n\n编辑快捷键\n繁忙时的发送行为\n智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为\n排队发送\n性能与用量\n选择性能与用量信息展示的详细程度\n详细\n在使用官方模型 API 时上传 Session Log\n帮助改进 DeepSeek 模型与产品\n当前版本：0.2.0-rc.2"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-09-settings-card.png"
+    },
+    {
+      "label": "10-open-plugin-settings",
+      "utc": "2026-10-21T11:03:47.819Z",
+      "result": {
+        "text": "设置\n通用设置\n模型\n内置插件\nAgent 预设\n打开配置文件\n关闭\n权限\n选择新会话的默认权限模式\n工作区内修改\n语言\n中文\n外观\n浅色\n深色\n跟随系统\n字号大小\n仅影响会话内容的字号\n14\npx\n工作步骤展示\n选择希望看到多少工具调用细节\n详细\n显示代码工作视图\n开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换\n快捷键\n\n查看和编辑当前可用的快捷键和输入操作\n\n编辑快捷键\n繁忙时的发送行为\n智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为\n排队发送\n性能与用量\n选择性能与用量信息展示的详细程度\n详细\n在使用官方模型 API 时上传 Session Log\n帮助改进 DeepSeek 模型与产品\n当前版本：0.2.0-rc.2"
+      },
+      "state": {
+        "panel": null,
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [],
+        "localStorage": {},
+        "headStatus": null,
+        "dialogOpen": true,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh\n设置\n通用设置\n模型\n内置插件\nAgent 预设\n打开配置文件\n关闭\n权限\n选择新会话的默认权限模式\n工作区内修改\n语言\n中文\n外观\n浅色\n深色\n跟随系统\n字号大小\n仅影响会话内容的字号\n14\npx\n工作步骤展示\n选择希望看到多少工具调用细节\n详细\n显示代码工作视图\n开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换\n快捷键\n\n查看和编辑当前可用的快捷键和输入操作\n\n编辑快捷键\n繁忙时的发送行为\n智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为\n排队发送\n性能与用量\n选择性能与用量信息展示的详细程度\n详细\n在使用官方模型 API 时上传 Session Log\n帮助改进 DeepSeek 模型与产品\n当前版本：0.2.0-rc.2"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-10-open-plugin-settings.png"
+    },
+    {
+      "label": "11-find-sticky-card",
+      "utc": "2026-10-21T11:03:59.089Z",
+      "result": {
+        "found": 0,
+        "text": "设置\n通用设置\n模型\n内置插件\nAgent 预设\n打开配置文件\n关闭\n权限\n选择新会话的默认权限模式\n工作区内修改\n语言\n中文\n外观\n浅色\n深色\n跟随系统\n字号大小\n仅影响会话内容的字号\n14\npx\n工作步骤展示\n选择希望看到多少工具调用细节\n详细\n显示代码工作视图\n开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换\n快捷键\n\n查看和编辑当前可用的快捷键和输入操作\n\n编辑快捷键\n繁忙时的发送行为\n智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为\n排队发送\n性能与用量\n选择性能与用量信息展示的详细程度\n详细\n在使用官方模型 API 时上传 Session Log\n帮助改进 DeepSeek 模型与产品\n当前版本：0.2.0-rc.2"
+      },
+      "state": {
+        "panel": null,
+        "fab": {
+          "rect": {
+            "x": 629,
+            "y": 570,
+            "w": 28,
+            "h": 28
+          },
+          "title": "便签",
+          "aria": "打开便签"
+        },
+        "textarea": null,
+        "inputs": [],
+        "buttons": [],
+        "localStorage": {},
+        "headStatus": null,
+        "dialogOpen": true,
+        "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh\n设置\n通用设置\n模型\n内置插件\nAgent 预设\n打开配置文件\n关闭\n权限\n选择新会话的默认权限模式\n工作区内修改\n语言\n中文\n外观\n浅色\n深色\n跟随系统\n字号大小\n仅影响会话内容的字号\n14\npx\n工作步骤展示\n选择希望看到多少工具调用细节\n详细\n显示代码工作视图\n开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换\n快捷键\n\n查看和编辑当前可用的快捷键和输入操作\n\n编辑快捷键\n繁忙时的发送行为\n智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为\n排队发送\n性能与用量\n选择性能与用量信息展示的详细程度\n详细\n在使用官方模型 API 时上传 Session Log\n帮助改进 DeepSeek 模型与产品\n当前版本：0.2.0-rc.2"
+      },
+      "shot": "H:\\CODEX\\five-plugin-reviews-20261021\\02-sticky-note\\evidence/run6-11-find-sticky-card.png"
+    }
+  ],
+  "disk": [
+    {
+      "label": "t0",
+      "utc": "2026-10-21T11:03:21.082Z",
+      "dirs": {
+        "点子": [
+          {
+            "name": "20261021-185458.md",
+            "size": 35,
+            "mtime": "2026-10-21T11:01:08.874Z"
+          },
+          {
+            "name": "20261021-185744.md",
+            "size": 25,
+            "mtime": "2026-10-21T10:57:52.970Z"
+          },
+          {
+            "name": "20261021-190044.md",
+            "size": 30,
+            "mtime": "2026-10-21T11:01:26.387Z"
+          }
+        ],
+        "感想": [
+          {
+            "name": "20261021-190128.md",
+            "size": 24,
+            "mtime": "2026-10-21T11:01:28.705Z"
+          },
+          {
+            "name": "20261021-190142.md",
+            "size": 52800,
+            "mtime": "2026-10-21T11:01:42.212Z"
+          }
+        ],
+        "TODO": [],
+        "归档": [],
+        "已清除": []
+      },
+      "draftPointer": {
+        "kind": "感想",
+        "name": "20261021-190142.md"
+      },
+      "retained": null
+    },
+    {
+      "label": "t1-after-archive",
+      "utc": "2026-10-21T11:03:31.804Z",
+      "dirs": {
+        "点子": [
+          {
+            "name": "20261021-185744.md",
+            "size": 25,
+            "mtime": "2026-10-21T10:57:52.970Z"
+          },
+          {
+            "name": "20261021-190044.md",
+            "size": 30,
+            "mtime": "2026-10-21T11:01:26.387Z"
+          }
+        ],
+        "感想": [
+          {
+            "name": "20261021-190128.md",
+            "size": 24,
+            "mtime": "2026-10-21T11:01:28.705Z"
+          },
+          {
+            "name": "20261021-190142.md",
+            "size": 52800,
+            "mtime": "2026-10-21T11:01:42.212Z"
+          }
+        ],
+        "TODO": [],
+        "归档": [
+          {
+            "name": "点子-20261021-185458.md",
+            "size": 35,
+            "mtime": "2026-10-21T11:01:08.874Z"
+          }
+        ],
+        "已清除": []
+      },
+      "draftPointer": {
+        "kind": "感想",
+        "name": "20261021-190142.md"
+      },
+      "retained": null
+    },
+    {
+      "label": "t2-after-restore",
+      "utc": "2026-10-21T11:03:33.716Z",
+      "dirs": {
+        "点子": [
+          {
+            "name": "20261021-185458.md",
+            "size": 35,
+            "mtime": "2026-10-21T11:01:08.874Z"
+          },
+          {
+            "name": "20261021-185744.md",
+            "size": 25,
+            "mtime": "2026-10-21T10:57:52.970Z"
+          },
+          {
+            "name": "20261021-190044.md",
+            "size": 30,
+            "mtime": "2026-10-21T11:01:26.387Z"
+          }
+        ],
+        "感想": [
+          {
+            "name": "20261021-190128.md",
+            "size": 24,
+            "mtime": "2026-10-21T11:01:28.705Z"
+          },
+          {
+            "name": "20261021-190142.md",
+            "size": 52800,
+            "mtime": "2026-10-21T11:01:42.212Z"
+          }
+        ],
+        "TODO": [],
+        "归档": [],
+        "已清除": []
+      },
+      "draftPointer": {
+        "kind": "感想",
+        "name": "20261021-190142.md"
+      },
+      "retained": null
+    },
+    {
+      "label": "t3-after-retain",
+      "utc": "2026-10-21T11:03:35.613Z",
+      "dirs": {
+        "点子": [
+          {
+            "name": "20261021-185458.md",
+            "size": 35,
+            "mtime": "2026-10-21T11:01:08.874Z"
+          },
+          {
+            "name": "20261021-185744.md",
+            "size": 25,
+            "mtime": "2026-10-21T10:57:52.970Z"
+          },
+          {
+            "name": "20261021-190044.md",
+            "size": 30,
+            "mtime": "2026-10-21T11:01:26.387Z"
+          }
+        ],
+        "感想": [
+          {
+            "name": "20261021-190128.md",
+            "size": 24,
+            "mtime": "2026-10-21T11:01:28.705Z"
+          },
+          {
+            "name": "20261021-190142.md",
+            "size": 52800,
+            "mtime": "2026-10-21T11:01:42.212Z"
+          }
+        ],
+        "TODO": [],
+        "归档": [],
+        "已清除": []
+      },
+      "draftPointer": {
+        "kind": "感想",
+        "name": "20261021-190142.md"
+      },
+      "retained": [
+        "点子/20261021-190044.md"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "utc": "2026-10-21T11:03:26.356Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"8c8314b3-23f1-4a48-a965-eafd1427045d\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"list\",\"payload\":{}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:28.068Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"95282212-8021-4acb-9b0a-5eceec392be9\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"read\",\"payload\":{\"kind\":\"点子\",\"name\":\"20261021-190044.md\"}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:30.598Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"2ad08357-710b-42c3-ad83-993ffb8b2be2\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"archive\",\"payload\":{\"kind\":\"点子\",\"name\":\"20261021-185458.md\"}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:30.608Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"6acdf76f-c5e9-47c5-8493-4a6b344e6cb8\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"list\",\"payload\":{}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:32.509Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"4f4cf8d4-e6da-417c-81b2-f69a34e31221\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"restore\",\"payload\":{\"name\":\"点子-20261021-185458.md\"}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:32.518Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"ba2c4610-331e-44e7-b3da-855db44a2f00\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"list\",\"payload\":{}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:34.404Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"4ffc35cf-fe69-4155-b505-dc44a90f77cb\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"retain\",\"payload\":{\"kind\":\"点子\",\"name\":\"20261021-190044.md\",\"retain\":true}}}"
+    },
+    {
+      "utc": "2026-10-21T11:03:34.415Z",
+      "body": "{\"type\":\"client-request\",\"rpcId\":\"e23c797f-6c68-4745-ae8a-8e8edc1730f4\",\"method\":\"dsh-sticky-note/call\",\"payload\":{\"endpoint\":\"list\",\"payload\":{}}}"
+    }
+  ],
+  "errors": [],
+  "consoleLog": []
+}

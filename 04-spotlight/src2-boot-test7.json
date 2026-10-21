@@ -1,0 +1,99 @@
+{
+  "host": {
+    "pid": 25020,
+    "url": "http://127.0.0.1:9466/?token=REDACTED",
+    "utc": "2026-10-21T10:56:23.389Z"
+  },
+  "out": {
+    "tag": "src2-boot",
+    "rapid": [
+      {
+        "press": 1,
+        "roots": 1,
+        "style": 1,
+        "n": 8
+      },
+      {
+        "press": 2,
+        "roots": 0,
+        "style": 1,
+        "n": 0
+      },
+      {
+        "press": 3,
+        "roots": 1,
+        "style": 1,
+        "n": 8
+      },
+      {
+        "press": 4,
+        "roots": 0,
+        "style": 1,
+        "n": 0
+      },
+      {
+        "press": 5,
+        "roots": 1,
+        "style": 1,
+        "n": 8
+      },
+      {
+        "press": 6,
+        "roots": 0,
+        "style": 1,
+        "n": 0
+      },
+      {
+        "press": 7,
+        "roots": 1,
+        "style": 1,
+        "n": 8
+      },
+      {
+        "press": 8,
+        "roots": 0,
+        "style": 1,
+        "n": 0
+      },
+      {
+        "press": 9,
+        "roots": 1,
+        "style": 1,
+        "n": 8
+      }
+    ],
+    "rapidFinal": {
+      "roots": 1,
+      "style": 1,
+      "n": 14
+    },
+    "recordingBeforeEscape": {
+      "label": "请按新快捷键…",
+      "recording": "true",
+      "storage": null
+    },
+    "recordingAfterEscape": {
+      "root": true,
+      "label": "快捷键 Ctrl+K",
+      "recording": "false",
+      "focusSpotlightInput": true,
+      "storage": null
+    },
+    "modifierOnly": {
+      "label": "请按新快捷键…",
+      "recording": "true",
+      "storage": null
+    },
+    "enterNoMatch": {
+      "root": true,
+      "empty": "没有匹配结果",
+      "n": 0
+    },
+    "clickOutside": {
+      "roots": 0,
+      "style": 1,
+      "n": 0
+    }
+  },
+  "errors": []
+}

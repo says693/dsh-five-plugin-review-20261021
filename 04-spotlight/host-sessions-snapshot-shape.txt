@@ -1,0 +1,49 @@
+# installed DSH 0.2.0-rc.2: ClientSessions.list snapshot shape (read-only reference)
+# source file: C:\Users\USER\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh\node_modules\@deepseek-ai\dsh-api-session-controller\lib\types\client\sessions\service.js
+
+161:      */
+162:     constructor(rootCtx, remote) {
+163:         this.rootCtx = rootCtx;
+164:         this.manager = new SessionManager(remote);
+165:         this.list = createSnapshotStore({
+166:             ids: [], byId: {}, phase: 'pending', projectionsBySession: {},
+167:         });
+168:         const disposeManagerProjection = this.manager.subscribe(() => { this.projectList(); });
+169:         rootCtx.effect(() => async () => {
+170:             this.closed = true;
+171:             disposeManagerProjection();
+...
+489:     }
+490:     /** Project the manager's list snapshot into the store (title derivation is display-only). */
+491:     projectList() {
+492:         const previousById = this.list.getSnapshot().byId;
+493:         const { items, phase, projectionsBySession, } = this.manager.getListSnapshot();
+494:         const ids = [];
+495:         const byId = {};
+496:         for (const entry of items) {
+497:             ids.push(entry.sessionId);
+498:             byId[entry.sessionId] = {
+499:                 id: entry.sessionId,
+500:                 displayTitle: displayTitleOf(entry.title, entry.cwd, entry.sessionId),
+501:                 running: entry.running,
+...
+546:             const previous = previousById[id];
+547:             const snapshot = record.session.getSnapshot();
+548:             const projectionValues = this.manager.projectionValues(id);
+549:             const projectedTitle = projectionValues?.title;
+550:             const title = typeof projectedTitle === 'string' && projectedTitle !== '' ? projectedTitle : previous?.title;
+551:             byId[id] = {
+552:                 ...(previous ?? { id, displayTitle: id, updatedAt: 0 }),
+553:                 running: snapshot.running,
+554:                 retainedBy: record.retention.retainedBy,
+555:                 blank: snapshot.blank,
+556:                 parentId: address.parentSessionId,
+557:                 origin: 'subagent',
+558:                 ...(projectionValues === undefined ? {} : { projectionValues }),
+559:                 ...(title === undefined ? {} : { title, displayTitle: title }),
+560:             };
+561:         }
+562:         this.list.set({ ids, byId, phase, projectionsBySession });
+563:     }
+564:     startScopeDrop(id, record, disposeFiber = true, sessionDisposal = this.manager.drop(id, record.session)) {
+565:         const drop = this.dropScope(record, disposeFiber, sessionDisposal);

@@ -1,0 +1,20 @@
+node : dsh: initialized profile web at H:\CODEX\five-plugin-reviews-20261021\03-message-preview\r3-home\profiles\web
+所在位置 行:1 字符: 610
++ ... ocation $r; node $bin plugin --profile web add "$r\source\dsh-message ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (dsh: initialize...me\profiles\web:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+dsh: installation rejected: Plugin dsh-message-preview@0.1.1 is incompatible with dsh 0.2.0-rc.2: peerDependencies {"@d
+eepseek-ai/dsh-session-projection":"^0.1.0-rc.6","@deepseek-ai/dsh-client-runtime":"^0.1.0-rc.6","@deepseek-ai/dsh-clie
+nt-locale":"^0.1.0-rc.6","@deepseek-ai/dsh-client-ui-slots":"^0.1.0-rc.6","@deepseek-ai/dsh-client-ui-conversation":"^0
+.1.0-rc.6"}. Running it may cause crashes or data loss. Update the plugin or install a plugin version compatible with t
+his dsh runtime. To accept this risk explicitly, grant the exact-version exemption for dsh-message-preview@0.1.1 on dsh
+ 0.2.0-rc.2 with `dsh plugin allow-version` or the plugin manager, then retry the installation or restart dsh. Exact-ve
+rsion exemption: not active.
+dsh: nothing was installed.
+dsh: to accept the risk, run: dsh plugin --profile web allow-version dsh-message-preview@0.1.1 --dsh-version 0.2.0-rc.2
+ --accept-risk
+dsh: plugin command failed; diagnostics: H:\CODEX\five-plugin-reviews-20261021\03-message-preview\r3-home\profiles\web\
+.plugin-manager\logs\operation-MMJt82\pnpm.log

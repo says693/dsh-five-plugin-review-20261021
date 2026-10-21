@@ -1,0 +1,31 @@
+{
+  "host": {
+    "pid": 24336,
+    "url": "http://127.0.0.1:7788/?token=REDACTED",
+    "port": 7788,
+    "utc": "2026-10-21T11:04:23.737Z"
+  },
+  "out": {
+    "tag": "cold2-boot",
+    "phase": "verify",
+    "origin": "http://127.0.0.1:7788",
+    "storageAtStart": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}",
+    "oldKeyOnNewHost": {
+      "root": false,
+      "roots": 0,
+      "shortcutLabel": null,
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}",
+      "origin": "http://127.0.0.1:7788",
+      "focusSpotlightInput": false
+    },
+    "newKeyOnNewHost": {
+      "root": true,
+      "roots": 1,
+      "shortcutLabel": "快捷键 Ctrl+J",
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}",
+      "origin": "http://127.0.0.1:7788",
+      "focusSpotlightInput": true
+    }
+  },
+  "errors": []
+}

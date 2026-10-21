@@ -1,0 +1,47 @@
+{
+  "pluginExports": [
+    "Config",
+    "apply",
+    "name"
+  ],
+  "registrations": [
+    {
+      "key": "dshMessagePreview",
+      "stateVersion": 4,
+      "hasStateSchema": false,
+      "hasWire": false,
+      "legacyFields": [
+        "key",
+        "stateSchema",
+        "init",
+        "apply",
+        "wire",
+        "stateVersion"
+      ]
+    }
+  ],
+  "pluginKeyRegistered": true,
+  "clientVisible": false,
+  "indexFold": {
+    "messages": [
+      {
+        "seq": 1,
+        "time": 1792576001000,
+        "text": "第一条：请把这份周报的结论压成三行。",
+        "id": "u-001"
+      },
+      {
+        "seq": 5,
+        "time": 1792576005000,
+        "text": "",
+        "id": "u-002"
+      },
+      {
+        "seq": 10,
+        "time": 1792576010000,
+        "text": "长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长",
+        "id": "u-003"
+      }
+    ]
+  }
+}

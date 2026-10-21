@@ -1,0 +1,26 @@
+node : node:internal/modules/run_main:107
+所在位置 行:1 字符: 402
++ ... ction SilentlyContinue; node "$root\r2-badcfg-probe.mjs" 2>&1 | Tee-O ...
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (node:internal/modules/run_main:107:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    triggerUncaughtException(
+    ^
+
+page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://127.0.0.1:10393/?token=REDACTED
+h7hY
+Call log:
+[2m  - navigating to "http://127.0.0.1:10393/?token=REDACTED", waiting until "domco
+ntentloaded"[22m
+
+    at newPage (H:\CODEX\five-plugin-reviews-20261021\05-theme-studio\browser-kit2.mjs:35:14)
+    at async file:///H:/CODEX/five-plugin-reviews-20261021/05-theme-studio/r2-badcfg-probe.mjs:14:36 {
+  log: [
+    '  - navigating to "http://127.0.0.1:10393/?token=REDACTED", waiting until "domc
+ontentloaded"'
+  ],
+  name: 'Error'
+}
+
+Node.js v24.19.0

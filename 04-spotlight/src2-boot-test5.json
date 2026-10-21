@@ -1,0 +1,289 @@
+{
+  "host": {
+    "pid": 25020,
+    "url": "http://127.0.0.1:9466/?token=REDACTED",
+    "utc": "2026-10-21T10:56:23.389Z"
+  },
+  "out": {
+    "tag": "src2-boot",
+    "focusBeforeOpen": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "DIV",
+        "aria": "描述你想要构建的内容, / 调用指令, @ 文件或对话",
+        "composer": true,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "openWithComposerFocus": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "快捷键 Ctrl+K",
+      "recording": "false",
+      "focus": {
+        "tag": "INPUT",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": true,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "focusAfterEscape": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "DIV",
+        "aria": "描述你想要构建的内容, / 调用指令, @ 文件或对话",
+        "composer": true,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "afterEnterFocusComposer": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "DIV",
+        "aria": "描述你想要构建的内容, / 调用指令, @ 文件或对话",
+        "composer": true,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "sidebarQuery": [
+      "收起侧边栏 | 界面操作 · UI action | 操作",
+      "收起右侧边栏 | 界面操作 · UI action | 操作"
+    ],
+    "sidebarAction": {
+      "before": {
+        "exists": true,
+        "rect": 28
+      },
+      "after": {
+        "collapseButtonStillThere": false,
+        "expandButton": true,
+        "bodyText": "探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh"
+      },
+      "palette": {
+        "root": false,
+        "roots": 0,
+        "inputValue": null,
+        "shortcutLabel": null,
+        "recording": null,
+        "focus": {
+          "tag": "DIV",
+          "aria": "描述你想要构建的内容, / 调用指令, @ 文件或对话",
+          "composer": true,
+          "spotlightInput": false,
+          "shortcutBtn": false
+        },
+        "storage": null
+      }
+    },
+    "recording": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "请按新快捷键…",
+      "recording": "true",
+      "focus": {
+        "tag": "BUTTON",
+        "aria": "设置 Spotlight 快捷键",
+        "composer": false,
+        "spotlightInput": false,
+        "shortcutBtn": true
+      },
+      "storage": null
+    },
+    "afterRebind": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "快捷键 Ctrl+J",
+      "recording": "false",
+      "focus": {
+        "tag": "INPUT",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": true,
+        "shortcutBtn": false
+      },
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}"
+    },
+    "closedAfterRebind": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "DIV",
+        "aria": "描述你想要构建的内容, / 调用指令, @ 文件或对话",
+        "composer": true,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}"
+    },
+    "oldKeyAfterRebind": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "DIV",
+        "aria": "描述你想要构建的内容, / 调用指令, @ 文件或对话",
+        "composer": true,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}"
+    },
+    "newKeyAfterRebind": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "快捷键 Ctrl+J",
+      "recording": "false",
+      "focus": {
+        "tag": "INPUT",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": true,
+        "shortcutBtn": false
+      },
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}"
+    },
+    "afterReload": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "BODY",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}"
+    },
+    "newKeyAfterReload": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "快捷键 Ctrl+J",
+      "recording": "false",
+      "focus": {
+        "tag": "INPUT",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": true,
+        "shortcutBtn": false
+      },
+      "storage": "{\"key\":\"j\",\"metaKey\":false,\"ctrlKey\":true,\"altKey\":false,\"shiftKey\":false}"
+    },
+    "afterReset": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "快捷键 Ctrl+K",
+      "recording": "false",
+      "focus": {
+        "tag": "INPUT",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": true,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "defaultKeyAfterReset": {
+      "root": true,
+      "roots": 1,
+      "inputValue": "",
+      "shortcutLabel": "快捷键 Ctrl+K",
+      "recording": "false",
+      "focus": {
+        "tag": "INPUT",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": true,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "rapid": {
+      "root": false,
+      "roots": 0,
+      "inputValue": null,
+      "shortcutLabel": null,
+      "recording": null,
+      "focus": {
+        "tag": "BODY",
+        "aria": null,
+        "composer": false,
+        "spotlightInput": false,
+        "shortcutBtn": false
+      },
+      "storage": null
+    },
+    "rapidMs": 1528,
+    "hostShortcutAlone": {
+      "before": 0,
+      "after": 0,
+      "palette": {
+        "root": false,
+        "roots": 0,
+        "inputValue": null,
+        "shortcutLabel": null,
+        "recording": null,
+        "focus": {
+          "tag": "BODY",
+          "aria": null,
+          "composer": false,
+          "spotlightInput": false,
+          "shortcutBtn": false
+        },
+        "storage": null
+      }
+    },
+    "hostShortcutWhilePaletteOpen": {
+      "palette": {
+        "root": true,
+        "roots": 1,
+        "inputValue": "",
+        "shortcutLabel": "快捷键 Ctrl+K",
+        "recording": "false",
+        "focus": {
+          "tag": "INPUT",
+          "aria": null,
+          "composer": false,
+          "spotlightInput": true,
+          "shortcutBtn": false
+        },
+        "storage": null
+      },
+      "bodyText": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\n默认工作区\n新会话\n未分组\n设置\n探索未至之境\n预览版\n默认工作区\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n完全权限\nDeepSeek-V41-Flash\nHigh\n聚焦输入框\nFocus message composer\n操作\n新建会话\nNew conversation\n操作\n打开插件设置\nOpen installed"
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:7025/",
+  "bodyAttrs": {
+    "data-dsh-claude-brand": "claude",
+    "data-dsh-claude-palette": "host",
+    "data-dsh-claude-typeface": "host",
+    "data-dsh-claude-mascot": "crab",
+    "data-dsh-claude-dock-look": "card",
+    "data-dsh-claude-search-style": "overlay",
+    "data-dsh-claude-sidebar-layout": "relaxed",
+    "data-dsh-claude-ongoing-indicator": "breathe",
+    "data-dsh-claude-stats-position": "context",
+    "data-dsh-claude-status-motion": "sweep",
+    "data-dsh-claude-footer-takeover": "true",
+    "data-dsh-claude-motion": "full",
+    "data-dsh-claude-style": "0538e7351c25",
+    "data-dsh-claude-style-handoff": "0538e7351c25",
+    "data-dsh-claude-home-layout": "studio",
+    "data-dsh-claude-permissions": "",
+    "data-dsh-claude-chat-follow": "",
+    "data-dsh-claude-chat-fold": "",
+    "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 256px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+    "data-dsh-claude-composer-active": "",
+    "data-dsh-claude-session-stats": ""
+  },
+  "htmlAttrs": {
+    "lang": "zh-CN",
+    "data-ds-theme-source": "system",
+    "style": "color-scheme: light;",
+    "data-input-modality": "pointer"
+  },
+  "bodyStyle": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(15, 17, 21)",
+    "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+  },
+  "accentVar": "",
+  "fontVars": {
+    "sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", H",
+    "serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", H",
+    "code": "\"SF Mono\", \"JetBrains Mono\", \"Fira Code\", Consolas, \"Liberation Mono\", Menlo, Courier, \"PingFang SC\", \"Microsoft YaHei\""
+  },
+  "mainFont": null,
+  "textSample": "新会话\nCtrl\nAlt\nN\n插件\n工作区\n默认工作区\n新会话\nUSER\n插件列表\n卸载\nClaude Code 风格\nv0.17.0\n\ndsh-claude-style\n\n为 DeepSeek Harness 网页界面复刻 Claude Code Desktop 的主题插件——象牙白与暖黑双画布、陶烬橙强调色、Claude 风格模型选择器、权限分段与账户抽屉。\n\n通用\n外观\n输入区\n侧栏\n对话\n动效\n配色\n开启后界面用插件的配色。\n开启\n关闭\n强调色\n按钮、选中标记、链接与焦点环的颜色。\n跟随品牌\n字体\n开启后用 Anthropic 的字体。\n开启\n关闭\n首页版面\n经典\n工作台\n水波纹字符"
+}

@@ -1,0 +1,6 @@
+dedup-lingshu-plugins-dsh-spotlight.html | HTTP 200 | len=23279 | 分类 59 评测： 全部 已有评测 暂无评测 排序： 按资料更新时间 按评测数 没有符合当前条件的条目（目录里共有 127 个）。 清除全部条件 。 插件 评测 
+dedup-lingshu-plugins-0xsline.html | HTTP 200 | len=23038 | 分类 59 评测： 全部 已有评测 暂无评测 排序： 按资料更新时间 按评测数 没有符合当前条件的条目（目录里共有 127 个）。 清除全部条件 。 插件 评测 
+dedup-lingshu-reviews-dsh-spotlight.html | HTTP 200 | len=23533 | 互 3 未分类 59 共 0 篇公开评测 （搜索：dsh-spotlight） 没有匹配的公开评测（换个关键词，或 清除筛选 ）。 插件 评测 
+dedup-lingshu-reviews-spotlight.html | HTTP 200 | len=23368 | 界面与交互 3 未分类 59 共 0 篇公开评测 （搜索：spotlight） 没有匹配的公开评测（换个关键词，或 清除筛选 ）。 插件 评测 
+dedup-lingshu-reviews-palette.html | HTTP 200 | len=25575 | NO_EMPTY_MARKER
+dedup-lingshu-plugins-palette.html | HTTP 200 | len=24102 | 分类 59 评测： 全部 已有评测 暂无评测 排序： 按资料更新时间 按评测数 没有符合当前条件的条目（目录里共有 127 个）。 清除全部条件 。 插件 评测 

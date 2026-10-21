@@ -1,0 +1,71 @@
+{
+  "rpc": {
+    "status": 200,
+    "err": null,
+    "count": 5
+  },
+  "projKeys": [
+    "title",
+    "goal",
+    "tokenUsage",
+    "contextPressure",
+    "contextBreakdown",
+    "inbox",
+    "sessionStats",
+    "turnOutline",
+    "agentPreset",
+    "userQuestions",
+    "subagentCatalog",
+    "subagentTiming",
+    "subagent",
+    "permissions",
+    "todos",
+    "plan",
+    "modelSelection",
+    "sessionListMetadata",
+    "imageLimits"
+  ],
+  "hasPreviewKey": false,
+  "turnOutlineLen": 7,
+  "rail": null,
+  "railCount": 0,
+  "blocks": [],
+  "anchors": [
+    "13:input-messageu-001",
+    "12:turn-process1",
+    "9:turn-tail1",
+    "13:input-messageu-002",
+    "12:turn-process2",
+    "9:turn-tail2",
+    "13:input-messageu-003",
+    "12:turn-process3",
+    "9:turn-tail3",
+    "13:input-messageu-004",
+    "12:turn-process4",
+    "9:turn-tail4",
+    "13:input-messageu-005",
+    "12:turn-process5",
+    "9:turn-tail5",
+    "13:input-messageu-006",
+    "12:turn-process6",
+    "9:turn-tail6",
+    "12:turn-process7",
+    "9:turn-tail7"
+  ],
+  "userRows": [
+    "第一条：请把这份周报的结论压成三行，语气克制，不要用感叹号。|18:49",
+    "图片加载失败，点击重试|19:14",
+    "第三条：这一条刻意写长，用来检查导航块的悬停预览在超过八十字时是否截断，以及卡片里是否仍然只显示前八十个字符。后面继续补一些文字，让长度明显越过上限，同时保证内",
+    "第四条：检查多轮对话后导航块的数量、顺序和内容是否与用户消息一一对应。|20:04",
+    "第五条：键盘导航测试，Tab 聚焦当前块后，用上下键移动焦点，再用回车跳转。|20:29",
+    "第六条：最后一条，用来核对列表末尾的序号、相对时间与跳转目标。|20:54"
+  ],
+  "scroll": [
+    {
+      "h": 924,
+      "scrollH": 1187,
+      "top": 263
+    }
+  ],
+  "dockCount": 1
+}

@@ -1,0 +1,89 @@
+{
+  "host": {
+    "pid": 25020,
+    "url": "http://127.0.0.1:9466/?token=REDACTED",
+    "utc": "2026-10-21T10:56:23.389Z"
+  },
+  "out": {
+    "tag": "src2-boot",
+    "open0": {
+      "index": 0,
+      "id": "dsh-spotlight-option-0",
+      "ariaSelected": null,
+      "matchesHover": false,
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(15, 17, 21) none 3px",
+      "border": "0px none rgb(15, 17, 21)",
+      "boxShadow": "none",
+      "color": "rgb(15, 17, 21)",
+      "filter": "none"
+    },
+    "open1": {
+      "index": 1,
+      "id": "dsh-spotlight-option-1",
+      "ariaSelected": null,
+      "matchesHover": false,
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(15, 17, 21) none 3px",
+      "border": "0px none rgb(15, 17, 21)",
+      "boxShadow": "none",
+      "color": "rgb(15, 17, 21)",
+      "filter": "none"
+    },
+    "activeAfterOpen": "dsh-spotlight-option-0",
+    "activeAfterTwoDown": "dsh-spotlight-option-2",
+    "styleActive2": {
+      "index": 2,
+      "id": "dsh-spotlight-option-2",
+      "ariaSelected": null,
+      "matchesHover": false,
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(15, 17, 21) none 3px",
+      "border": "0px none rgb(15, 17, 21)",
+      "boxShadow": "none",
+      "color": "rgb(15, 17, 21)",
+      "filter": "none"
+    },
+    "styleInactive0": {
+      "index": 0,
+      "id": "dsh-spotlight-option-0",
+      "ariaSelected": null,
+      "matchesHover": false,
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(15, 17, 21) none 3px",
+      "border": "0px none rgb(15, 17, 21)",
+      "boxShadow": "none",
+      "color": "rgb(15, 17, 21)",
+      "filter": "none"
+    },
+    "styleInactive1": {
+      "index": 1,
+      "id": "dsh-spotlight-option-1",
+      "ariaSelected": null,
+      "matchesHover": false,
+      "background": "rgba(0, 0, 0, 0)",
+      "outline": "rgb(15, 17, 21) none 3px",
+      "border": "0px none rgb(15, 17, 21)",
+      "boxShadow": "none",
+      "color": "rgb(15, 17, 21)",
+      "filter": "none"
+    },
+    "anyAriaSelected": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "errors": []
+}

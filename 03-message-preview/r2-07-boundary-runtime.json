@@ -1,0 +1,198 @@
+{
+  "browser": "155.0.4283.62",
+  "errors": [],
+  "consoleLog": [],
+  "network": [
+    {
+      "path": "/plugins/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/plugins/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/plugins/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/settings/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/dynamicCordisRunner/syncInspectManifest",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/credentials/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/dynamicCordisRunner/inventory",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/plugins/events",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/session/modelCatalog",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/agentPresets/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/permissionPresets/catalog",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/dynamicCordisRunner/inventory",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/agentPresets/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/agentPresets/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/session/modelCatalog",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/credentials/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/settings/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/dynamicCordisRunner/syncInspectManifest",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/credentials/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/session/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/session/create",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/llm/listProviders",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/llm/listConfigurableProviders",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/agentPresets/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/session/modelCatalog",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/commands/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/skills/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/credentials/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/credentials/describe",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/session/attachment",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/commands/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/skills/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/commands/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/skills/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/commands/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/skills/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/commands/list",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/skills/list",
+      "method": "POST",
+      "status": 200
+    }
+  ],
+  "observations": []
+}

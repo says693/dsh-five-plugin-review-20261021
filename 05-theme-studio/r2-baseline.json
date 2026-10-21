@@ -1,0 +1,138 @@
+{
+  "utc": "2026-10-21T11:01:30.330Z",
+  "steps": [
+    {
+      "id": "stock-light",
+      "theme": {
+        "dark": false,
+        "darkAttrValue": null,
+        "themeSource": "system",
+        "inlineStyleLength": 30,
+        "inlineTokenCount": 0,
+        "injectedStyleTag": {
+          "present": false
+        },
+        "tokens": {
+          "bgBase": "#fff",
+          "bgLayer1": "#fff",
+          "brandPrimary": "#0f1115",
+          "brandText": "#0f1115",
+          "labelPrimary": "#0f1115",
+          "labelSecondary": "#61666b",
+          "sidebarFill": "#f9fafb",
+          "borderL2": "#0000001a"
+        },
+        "computed": {
+          "bodyBg": "rgb(255, 255, 255)",
+          "bodyColor": "rgb(15, 17, 21)",
+          "contrastRatioBody": 18.9
+        },
+        "font": {
+          "tokenUi": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "tokenCode": "\"SF Mono\", \"JetBrains Mono\", \"Fira Code\", Consolas, \"Liberation Mono\", Menlo, Courier, \"PingFang SC\", \"Microsoft YaHei\"",
+          "bodyComputed": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "rootComputed": "\"Times New Roman\""
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "docScrollWidth": 1440,
+          "docClientWidth": 1440,
+          "docScrollHeight": 1000,
+          "docClientHeight": 1000,
+          "bodyOverflowX": "visible"
+        },
+        "localStorage": {
+          "dsh.workspace.view.v5": "{\"groupBy\":\"workspace\",\"orderBy\":\"updated\",\"groupExpansion\":{\"ad1f0e60-6427-4a01-b40a-5912739ca9fa\":true},\"sessionOrderByAccount\":{},\"archivedFilter\":\"default\"}",
+          "dsh.sidebar-right.v1.session-ec4e4307-3afc-41b0-ab3c-e8e899f07023": "{\"bySession\":{\"session-ec4e4307-3afc-41b0-ab3c-e8e899f07023\":{\"layout\":{\"nodes\":{\"pane1\":{\"kind\":\"pane\",\"id\":\"pane1\",\"host\":\"dock\",\"tabs\":[]}},\"tabs\":{},\"rootId\":\"pane1\",\"floats\":[],\"activePaneId\":\"pane1\",\"expanded\":false,\"mode\":\"push\"},\"minted\":1}}}",
+          "dsh.sessions.current": "{\"sessionId\":\"session-ec4e4307-3afc-41b0-ab3c-e8e899f07023\"}"
+        },
+        "themeSelection": null
+      }
+    },
+    {
+      "id": "stock-dark",
+      "theme": {
+        "dark": true,
+        "darkAttrValue": "",
+        "themeSource": "system",
+        "inlineStyleLength": 30,
+        "inlineTokenCount": 0,
+        "injectedStyleTag": {
+          "present": false
+        },
+        "tokens": {
+          "bgBase": "#151517",
+          "bgLayer1": "#232324",
+          "brandPrimary": "#f9fafb",
+          "brandText": "#f9fafb",
+          "labelPrimary": "#f9fafb",
+          "labelSecondary": "#cfd3d6",
+          "sidebarFill": "#1b1b1c",
+          "borderL2": "#ffffff1f"
+        },
+        "computed": {
+          "bodyBg": "rgb(21, 21, 23)",
+          "bodyColor": "rgb(249, 250, 251)",
+          "contrastRatioBody": 17.45
+        },
+        "font": {
+          "tokenUi": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "tokenCode": "\"SF Mono\", \"JetBrains Mono\", \"Fira Code\", Consolas, \"Liberation Mono\", Menlo, Courier, \"PingFang SC\", \"Microsoft YaHei\"",
+          "bodyComputed": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "rootComputed": "\"Times New Roman\""
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scroll": {
+          "docScrollWidth": 1440,
+          "docClientWidth": 1440,
+          "docScrollHeight": 1000,
+          "docClientHeight": 1000,
+          "bodyOverflowX": "visible"
+        },
+        "localStorage": {
+          "dsh.workspace.view.v5": "{\"groupBy\":\"workspace\",\"orderBy\":\"updated\",\"groupExpansion\":{\"ad1f0e60-6427-4a01-b40a-5912739ca9fa\":true},\"sessionOrderByAccount\":{},\"archivedFilter\":\"default\"}",
+          "dsh.sidebar-right.v1.session-ec4e4307-3afc-41b0-ab3c-e8e899f07023": "{\"bySession\":{\"session-ec4e4307-3afc-41b0-ab3c-e8e899f07023\":{\"layout\":{\"nodes\":{\"pane1\":{\"kind\":\"pane\",\"id\":\"pane1\",\"host\":\"dock\",\"tabs\":[]}},\"tabs\":{},\"rootId\":\"pane1\",\"floats\":[],\"activePaneId\":\"pane1\",\"expanded\":false,\"mode\":\"push\"},\"minted\":1}}}",
+          "dsh.sessions.current": "{\"sessionId\":\"session-ec4e4307-3afc-41b0-ab3c-e8e899f07023\"}"
+        },
+        "themeSelection": null
+      }
+    }
+  ],
+  "settingsHasThemeStudio": false,
+  "settingsSections": [
+    "模型",
+    "内置插件",
+    "Agent 预设",
+    "打开配置文件",
+    "关闭",
+    "工作区内修改",
+    "中文",
+    "浅色",
+    "深色",
+    "跟随系统",
+    "详细",
+    "编辑快捷键",
+    "排队发送",
+    "详细"
+  ],
+  "observations": [
+    {
+      "utc": "2026-10-21T11:01:30.361Z",
+      "action": "dismiss-onboarding",
+      "button": "继续"
+    },
+    {
+      "utc": "2026-10-21T11:01:31.104Z",
+      "action": "dismiss-onboarding",
+      "button": "稍后配置"
+    }
+  ],
+  "errors": [],
+  "consoleLog": []
+}

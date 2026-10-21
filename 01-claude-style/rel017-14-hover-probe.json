@@ -1,0 +1,69 @@
+{
+  "restState": {
+    "brandCenter": {
+      "hit": "BUTTON.hHd-Xa_brand hHd-Xa_wide",
+      "aria": "新建会话",
+      "chain": [
+        "BUTTON.hHd-Xa_brand hHd-Xa_wide[新建会话]",
+        "DIV.hHd-Xa_logoRow",
+        "DIV.hHd-Xa_root",
+        "DIV.",
+        "DIV.pI_x6G_sidebarCol",
+        "DIV.pI_x6G_frame"
+      ],
+      "z": "auto",
+      "pos": "static",
+      "pointer": "auto"
+    },
+    "newSessionCenter": {
+      "hit": "SPAN.hHd-Xa_newSessionContent",
+      "aria": null,
+      "chain": [
+        "SPAN.hHd-Xa_newSessionContent",
+        "SPAN.hHd-Xa_newSessionLabelMask",
+        "BUTTON.hHd-Xa_newSession[新建会话]",
+        "DIV.hHd-Xa_root",
+        "DIV.",
+        "DIV.pI_x6G_sidebarCol"
+      ],
+      "z": "auto",
+      "pos": "static",
+      "pointer": "auto"
+    }
+  },
+  "hoverBrand": {
+    "hit": "SPAN.dsh-claude-search-trigger-label",
+    "aria": null,
+    "chain": [
+      "SPAN.dsh-claude-search-trigger-label",
+      "BUTTON.dsh-claude-search-trigger[搜索]",
+      "DIV.hHd-Xa_logoRow",
+      "DIV.hHd-Xa_root",
+      "DIV.",
+      "DIV.pI_x6G_sidebarCol"
+    ],
+    "z": "auto",
+    "pos": "static",
+    "pointer": "auto"
+  },
+  "hoverNewSession": {
+    "hit": "SPAN.hHd-Xa_newSessionContent",
+    "aria": null,
+    "chain": [
+      "SPAN.hHd-Xa_newSessionContent",
+      "SPAN.hHd-Xa_newSessionLabelMask",
+      "BUTTON.hHd-Xa_newSession[新建会话]",
+      "DIV.hHd-Xa_root",
+      "DIV.",
+      "DIV.pI_x6G_sidebarCol"
+    ],
+    "z": "auto",
+    "pos": "static",
+    "pointer": "auto"
+  },
+  "afterMouseClick": {
+    "url": "http://127.0.0.1:7025/",
+    "selected": null,
+    "text": "搜索\n新会话\nCtrl\nAlt\nN\n插件\n工作区\n默认工作区\n新会话\nUSER\nWhat's up next, USER?\n默认工作区\n标准模式\n概览\n模型\n全部\n30 天\n7 天\n会话数\n0\n消息数\n0\nToken 总量\n0\n活跃天数\n0\n高峰时段\n—\n最常用模型\n—\nHow can I help you today?\n完全权限\nDeepSeek-V41-Flash\nHigh"
+  }
+}

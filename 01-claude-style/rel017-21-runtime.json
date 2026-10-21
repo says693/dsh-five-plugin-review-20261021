@@ -1,0 +1,292 @@
+{
+  "browser": "155.0.4283.62",
+  "errors": [],
+  "consoleLog": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "utc": "2026-10-21T11:12:50.716Z"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "utc": "2026-10-21T11:12:50.758Z"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "utc": "2026-10-21T11:12:51.101Z"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "utc": "2026-10-21T11:12:58.127Z"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "utc": "2026-10-21T11:12:58.128Z"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "utc": "2026-10-21T11:12:58.548Z"
+    }
+  ],
+  "network": [
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicSansWebText.ttf",
+      "method": "GET",
+      "status": 404,
+      "utc": "2026-10-21T11:12:50.716Z"
+    },
+    {
+      "path": "/dsh-claude-style/username",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.717Z"
+    },
+    {
+      "path": "/dsh-claude-style/model-descriptions.json",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.717Z"
+    },
+    {
+      "path": "/dsh-claude-style/hdsl",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.717Z"
+    },
+    {
+      "path": "/dsh-claude-style/brand",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.717Z"
+    },
+    {
+      "path": "/dsh-claude-style/usage",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.717Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/45f65931db18.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.717Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicMonoWeb.ttf",
+      "method": "GET",
+      "status": 404,
+      "utc": "2026-10-21T11:12:50.758Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/812ff61f28cc.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.760Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/b55a1acf34e0.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.760Z"
+    },
+    {
+      "path": "/dsh-claude-style/peakrate",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.760Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/1777a06cc5b2.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.761Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/926518b8cde7.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.761Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/26ac5bfbade6.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.761Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/94873ed8d52d.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.761Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/JetBrainsMonoVariable.ttf",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.810Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/InterVariable.woff2",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:50.810Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicSerifWebText.ttf",
+      "method": "GET",
+      "status": 404,
+      "utc": "2026-10-21T11:12:51.101Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/NotoSerifVariable.woff2",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:51.111Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicSansWebText.ttf",
+      "method": "GET",
+      "status": 404,
+      "utc": "2026-10-21T11:12:58.127Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicMonoWeb.ttf",
+      "method": "GET",
+      "status": 404,
+      "utc": "2026-10-21T11:12:58.128Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/JetBrainsMonoVariable.ttf",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.128Z"
+    },
+    {
+      "path": "/dsh-claude-style/username",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.129Z"
+    },
+    {
+      "path": "/dsh-claude-style/model-descriptions.json",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.129Z"
+    },
+    {
+      "path": "/dsh-claude-style/hdsl",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.129Z"
+    },
+    {
+      "path": "/dsh-claude-style/brand",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.130Z"
+    },
+    {
+      "path": "/dsh-claude-style/usage",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.130Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/45f65931db18.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.130Z"
+    },
+    {
+      "path": "/dsh-claude-style/peakrate",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.144Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/b55a1acf34e0.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.144Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/812ff61f28cc.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.144Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/1777a06cc5b2.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.144Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/926518b8cde7.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.145Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/26ac5bfbade6.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.145Z"
+    },
+    {
+      "path": "/dsh-claude-style/assets/94873ed8d52d.js",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.145Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/InterVariable.woff2",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.212Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicSerifWebText.ttf",
+      "method": "GET",
+      "status": 404,
+      "utc": "2026-10-21T11:12:58.548Z"
+    },
+    {
+      "path": "/dsh-claude-style/fonts/NotoSerifVariable.woff2",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T11:12:58.580Z"
+    }
+  ],
+  "fontAssets": [
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicSansWebText.ttf",
+      "status": 404
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicMonoWeb.ttf",
+      "status": 404
+    },
+    {
+      "path": "/dsh-claude-style/fonts/JetBrainsMonoVariable.ttf",
+      "status": 200
+    },
+    {
+      "path": "/dsh-claude-style/fonts/InterVariable.woff2",
+      "status": 200
+    },
+    {
+      "path": "/dsh-claude-style/fonts/AnthropicSerifWebText.ttf",
+      "status": 404
+    },
+    {
+      "path": "/dsh-claude-style/fonts/NotoSerifVariable.woff2",
+      "status": 200
+    }
+  ]
+}

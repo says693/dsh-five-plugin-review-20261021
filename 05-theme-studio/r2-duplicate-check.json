@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-21T11:15:00Z",
+  "checked_at_local": "2026-10-21T19:12+08:00",
+  "object": {
+    "repo": "BeiZi6/dsh-theme-plugin",
+    "npm_name": "dsh-theme-plugin",
+    "version_tested": "0.1.0",
+    "commit": "b3e7e143532c4b6df71da753d2336bb018949d2a",
+    "author": "Xu Yuanshan",
+    "aliases_queried": ["dsh-theme-plugin", "BeiZi6", "theme studio", "主题工作室", "theme", "皮肤", "skin"]
+  },
+  "site_1_review_lingshulab": {
+    "method": "read-only GET https://review.lingshulab.com/api/reviews?page=N&page_size=20 for N=1..8, scanned every title; plugin registry endpoint /api/plugins also fetched (its q= parameter is ignored by the server, total stays 127, so registry text search is not usable)",
+    "total_reviews": 147,
+    "total_pages": 8,
+    "pages_scanned": 8,
+    "same_plugin_hits": [],
+    "adjacent_but_different_plugins": [
+      {"title": "[intake 输入] 【测评报告】dsh-sogou-skin v0.2.0 功能与安全测评（dsh 生态插件 · 方法试验）", "pluginId": "01a157c1-a13e-75e9-b7c8-03310d4078c5", "why_not_duplicate": "different plugin (yan-mc/dsh-sogou-skin), different author, different codebase"},
+      {"title": "标准测评结论 · dsh-myskin 0.4.1（能力五状态：不适用）", "pluginId": "01a14f58-89d1-7f8b-958f-135d06025aac", "why_not_duplicate": "different plugin (dsh-myskin), different author"}
+    ],
+    "verdict": "no same-scope review of BeiZi6/dsh-theme-plugin found"
+  },
+  "site_2_bounty_issues": {
+    "method": "read-only GET https://api.github.com/search/issues?q=repo:FuRongJun-1999/dsh-bounty+<query>&per_page=20",
+    "queries": [
+      {"q": "dsh-theme-plugin", "total_count": 4, "items": [
+        {"number": 992, "state": "closed", "title": "[intake 输入] 【测评报告】dsh-myskin 0.4.1 体验快测（DSH 桌面皮肤 / 主题 · 方法试验）"},
+        {"number": 957, "state": "closed", "title": "[intake 输入][皮肤插件] Fly Skins 静态审计整体收敛…"},
+        {"number": 1061, "state": "closed", "title": "[intake 输入] 【测评报告】@fish-under-sea/dsh-fish 0.10.4 安全快测…"},
+        {"number": 1055, "state": "closed", "title": "[intake 输入] 【测评报告】dsh-ppt 0.11.0 安全与正确性快测…"}
+      ]},
+      {"q": "BeiZi6", "total_count": 0, "items": []},
+      {"q": "theme studio", "total_count": 0, "items": []}
+    ],
+    "same_plugin_hits": [],
+    "why_hits_are_not_duplicates": "all four lexical hits are reviews of other plugins (dsh-myskin, Fly Skins, dsh-fish, dsh-ppt); none names BeiZi6/dsh-theme-plugin, its author, or its preset/Theme Studio scope",
+    "verdict": "no same-scope issue found"
+  },
+  "conclusion": "Both required sites were checked (review site: all 8 review pages / 147 reviews; bounty repo: 3 lexical queries incl. exact package name and author). No same-scope duplicate of BeiZi6/dsh-theme-plugin 0.1.0 was found, so this review can be labelled 首报 within those two sites only. This is not a claim about any other site.",
+  "limitations": [
+    "review-site plugin registry cannot be text-searched through its public API (q parameter ignored); duplicate judgement therefore rests on scanning all published review titles plus the site search page captured in discovery/",
+    "bounty search covers issues only (the repo has no other content type relevant to a first-report claim)"
+  ]
+}

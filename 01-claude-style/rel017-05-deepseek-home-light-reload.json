@@ -1,0 +1,983 @@
+{
+  "url": "http://127.0.0.1:7025/",
+  "viewport": {
+    "w": 1440,
+    "h": 1000
+  },
+  "doc": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "overflowX": false
+  },
+  "bodyAttrs": {
+    "data-dsh-claude-brand": "deepseek",
+    "data-dsh-claude-palette": "claude",
+    "data-dsh-claude-typeface": "claude",
+    "data-dsh-claude-mascot": "deepy",
+    "data-dsh-claude-dock-look": "card",
+    "data-dsh-claude-search-style": "overlay",
+    "data-dsh-claude-sidebar-layout": "relaxed",
+    "data-dsh-claude-ongoing-indicator": "breathe",
+    "data-dsh-claude-stats-position": "context",
+    "data-dsh-claude-status-motion": "sweep",
+    "data-dsh-claude-footer-takeover": "true",
+    "data-dsh-claude-motion": "full",
+    "data-dsh-claude-style": "0538e7351c25",
+    "data-dsh-claude-style-handoff": "0538e7351c25",
+    "data-dsh-claude-home-layout": "studio",
+    "data-dsh-claude-permissions": "",
+    "data-dsh-claude-chat-follow": "",
+    "data-dsh-claude-chat-fold": "",
+    "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 256px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+    "data-dsh-claude-composer-active": "",
+    "data-dsh-claude-session-stats": ""
+  },
+  "htmlAttrs": {
+    "lang": "zh-CN",
+    "data-ds-theme-source": "system",
+    "style": "color-scheme: light;",
+    "data-input-modality": "pointer"
+  },
+  "bodyStyle": {
+    "bg": "rgb(250, 251, 255)",
+    "color": "rgb(15, 17, 21)",
+    "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans SC\", \"Source Han Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino S",
+    "fontSize": "16px"
+  },
+  "metaTheme": [
+    "rgb(252, 252, 251)"
+  ],
+  "media": {
+    "dark": false
+  },
+  "parts": {
+    "layout-frame": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1000
+      },
+      "bg": "rgb(250, 251, 255)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "sidebar-column": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 280,
+        "h": 1000
+      },
+      "bg": "rgb(247, 249, 255)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21) rgb(231, 236, 247) rgb(15, 17, 21) rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "host-root sidebar-root": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 280,
+        "h": 1000
+      },
+      "bg": "rgb(247, 249, 255)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "logo-row": {
+      "rect": {
+        "x": 12,
+        "y": 14,
+        "w": 256,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "brand-button": {
+      "rect": {
+        "x": 12,
+        "y": 16,
+        "w": 220,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 107, 254)",
+      "border": "rgb(77, 107, 254)",
+      "z": "auto"
+    },
+    "brand-identity": {
+      "rect": {
+        "x": 20,
+        "y": 16,
+        "w": 188,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 107, 254)",
+      "border": "rgb(77, 107, 254)",
+      "z": "auto"
+    },
+    "brand-mark": {
+      "rect": {
+        "x": 20,
+        "y": 19,
+        "w": 24,
+        "h": 18
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 107, 254)",
+      "border": "rgb(77, 107, 254)",
+      "z": "auto"
+    },
+    "brand-name": {
+      "rect": {
+        "x": 52,
+        "y": 16,
+        "w": 156,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 107, 254)",
+      "border": "rgb(77, 107, 254)",
+      "z": "auto"
+    },
+    "row-icon-button sidebar-toggle": {
+      "rect": {
+        "x": 240,
+        "y": 14,
+        "w": 28,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(97, 102, 107)",
+      "border": "rgb(97, 102, 107)",
+      "z": "auto"
+    },
+    "panel-icon": {
+      "rect": {
+        "x": 246,
+        "y": 20,
+        "w": 16,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(97, 102, 107)",
+      "border": "rgb(97, 102, 107)",
+      "z": "auto"
+    },
+    "new-session": {
+      "rect": {
+        "x": 12,
+        "y": 48,
+        "w": 256,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "new-session-mask": {
+      "rect": {
+        "x": 46,
+        "y": 48,
+        "w": 121,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "new-session-content": {
+      "rect": {
+        "x": 46,
+        "y": 48,
+        "w": 240,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "new-session-shortcut": {
+      "rect": {
+        "x": 173,
+        "y": 52,
+        "w": 87,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "panel-list": {
+      "rect": {
+        "x": 12,
+        "y": 82,
+        "w": 256,
+        "h": 34
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "panel-row": {
+      "rect": {
+        "x": 12,
+        "y": 82,
+        "w": 256,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "panel-glyph": {
+      "rect": {
+        "x": 20,
+        "y": 90,
+        "w": 20,
+        "h": 13
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "region-area": {
+      "rect": {
+        "x": 8,
+        "y": 124,
+        "w": 272,
+        "h": 829
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "host-root": {
+      "rect": {
+        "x": 12,
+        "y": 124,
+        "w": 268,
+        "h": 829
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "section-header": {
+      "rect": {
+        "x": 12,
+        "y": 126,
+        "w": 260,
+        "h": 36
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 133, 140)",
+      "border": "rgb(129, 133, 140)",
+      "z": "auto"
+    },
+    "section-label": {
+      "rect": {
+        "x": 16,
+        "y": 136,
+        "w": 36,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 133, 140)",
+      "border": "rgb(129, 133, 140)",
+      "z": "auto"
+    },
+    "search-slot": {
+      "rect": {
+        "x": 271,
+        "y": 144,
+        "w": 1,
+        "h": 1
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 133, 140)",
+      "border": "rgb(129, 133, 140)",
+      "z": "auto"
+    },
+    "search-button": {
+      "rect": {
+        "x": 271,
+        "y": 130,
+        "w": 28,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(97, 102, 107)",
+      "border": "rgb(97, 102, 107)",
+      "z": "auto"
+    },
+    "row-icon-button": {
+      "rect": {
+        "x": 208,
+        "y": 130,
+        "w": 28,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(97, 102, 107)",
+      "border": "rgb(97, 102, 107)",
+      "z": "auto"
+    },
+    "list-area": {
+      "rect": {
+        "x": 8,
+        "y": 166,
+        "w": 272,
+        "h": 787
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "tree-body": {
+      "rect": {
+        "x": 12,
+        "y": 166,
+        "w": 268,
+        "h": 787
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "list": {
+      "rect": {
+        "x": 8,
+        "y": 166,
+        "w": 270,
+        "h": 787
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "group-section": {
+      "rect": {
+        "x": 12,
+        "y": 166,
+        "w": 251,
+        "h": 57
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "project-row": {
+      "rect": {
+        "x": 12,
+        "y": 166,
+        "w": 251,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "row-project-text": {
+      "rect": {
+        "x": 18,
+        "y": 171,
+        "w": 65,
+        "h": 18
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "text-title row-title": {
+      "rect": {
+        "x": 18,
+        "y": 171,
+        "w": 65,
+        "h": 18
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(97, 102, 107)",
+      "border": "rgb(97, 102, 107)",
+      "z": "auto"
+    },
+    "session-row row-selected": {
+      "rect": {
+        "x": 12,
+        "y": 195,
+        "w": 251,
+        "h": 28
+      },
+      "bg": "rgba(38, 49, 72, 0.08)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "row-slot": {
+      "rect": {
+        "x": 18,
+        "y": 201,
+        "w": 14,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 133, 140)",
+      "border": "rgb(129, 133, 140)",
+      "z": "auto"
+    },
+    "foot-area": {
+      "rect": {
+        "x": 0,
+        "y": 953,
+        "w": 280,
+        "h": 47
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(231, 236, 247) rgb(15, 17, 21) rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "center-column": {
+      "rect": {
+        "x": 280,
+        "y": 0,
+        "w": 1160,
+        "h": 1000
+      },
+      "bg": "rgb(250, 251, 255)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "conversation-header": {
+      "rect": {
+        "x": 280,
+        "y": 0,
+        "w": 1160,
+        "h": 40
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "title-row": {
+      "rect": {
+        "x": 300,
+        "y": 10,
+        "w": 1112,
+        "h": 30
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "header-corner": {
+      "rect": {
+        "x": 1400,
+        "y": 11,
+        "w": 28,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "scroll-body": {
+      "rect": {
+        "x": 280,
+        "y": 40,
+        "w": 1158,
+        "h": 960
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "composer-seat": {
+      "rect": {
+        "x": 280,
+        "y": 40,
+        "w": 1148,
+        "h": 960
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "composer-stack composer-hero": {
+      "rect": {
+        "x": 494,
+        "y": 40,
+        "w": 720,
+        "h": 960
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "1"
+    },
+    "text-headline hero-headline": {
+      "rect": {
+        "x": 510,
+        "y": 54,
+        "w": 688,
+        "h": 26
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "hero-mark": {
+      "rect": {
+        "x": 510,
+        "y": 55,
+        "w": 34,
+        "h": 25
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "hero-title-group": {
+      "rect": {
+        "x": 552,
+        "y": 54,
+        "w": 212,
+        "h": 26
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "hero-workspace-row": {
+      "rect": {
+        "x": 494,
+        "y": 872,
+        "w": 720,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "workspace-chip-label": {
+      "rect": {
+        "x": 545,
+        "y": 876,
+        "w": 65,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(97, 102, 107)",
+      "border": "rgb(97, 102, 107)",
+      "z": "auto"
+    },
+    "composer-card-box": {
+      "rect": {
+        "x": 510,
+        "y": 910,
+        "w": 688,
+        "h": 74
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "2"
+    },
+    "input-scroll": {
+      "rect": {
+        "x": 510,
+        "y": 910,
+        "w": 688,
+        "h": 40
+      },
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(231, 236, 247)",
+      "z": "2"
+    },
+    "input-grow": {
+      "rect": {
+        "x": 525,
+        "y": 918,
+        "w": 636,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "row": {
+      "rect": {
+        "x": 510,
+        "y": 956,
+        "w": 688,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "3"
+    },
+    "tools": {
+      "rect": {
+        "x": 514,
+        "y": 958,
+        "w": 96,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "modes": {
+      "rect": {
+        "x": 514,
+        "y": 958,
+        "w": 64,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "trailing": {
+      "rect": {
+        "x": 1013,
+        "y": 956,
+        "w": 181,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "composer-controls": {
+      "rect": {
+        "x": 1013,
+        "y": 956,
+        "w": 173,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    },
+    "composer-primary": {
+      "rect": {
+        "x": 1164,
+        "y": 916,
+        "w": 26,
+        "h": 26
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(173, 178, 184)",
+      "border": "rgb(173, 178, 184)",
+      "z": "10"
+    },
+    "composer-dock": {
+      "rect": {
+        "x": 510,
+        "y": 968,
+        "w": 688,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "3"
+    },
+    "panel": {
+      "rect": {
+        "x": 792,
+        "y": 0,
+        "w": 648,
+        "h": 1000
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "z": "auto"
+    }
+  },
+  "vars": {
+    "--dsh-claude-image-claude-mark": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20148.09%20148.18'%3E",
+    "--dsh-claude-image-claude-word": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'177.76%2014.09%20512.22%201",
+    "--dsh-claude-image-claude-mark-clay": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20148.09%20148.18'%3E",
+    "--dsh-claude-image-anthropic-mark": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%",
+    "--dsh-claude-image-deepseek-mark": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2023.16%2017.04'%3E%3",
+    "--dsh-claude-image-github-mark": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201024%201024'%3E%3Cp",
+    "--dsh-claude-duration-instant": "80ms",
+    "--dsh-claude-duration-feedback": ".12s",
+    "--dsh-claude-duration-reveal": ".12s",
+    "--dsh-claude-duration-enter": ".32s",
+    "--dsh-claude-duration-surface": ".15s",
+    "--dsh-claude-duration-exit": ".12s",
+    "--dsh-claude-duration-open": ".25s",
+    "--dsh-claude-duration-swap": ".15s",
+    "--dsh-claude-duration-swap-gap": "50ms",
+    "--dsh-claude-duration-roll": ".16s",
+    "--dsh-claude-duration-move": ".2s",
+    "--dsh-claude-duration-count": ".22s",
+    "--dsh-claude-duration-slide": ".24s",
+    "--dsh-claude-duration-fade": ".3s",
+    "--dsh-claude-duration-bounce": ".35s",
+    "--dsh-claude-duration-flight": ".4s",
+    "--dsh-claude-duration-step": ".5s",
+    "--dsh-claude-duration-pop": ".5s",
+    "--dsh-claude-duration-rise": ".5s",
+    "--dsh-claude-duration-stagger": "70ms",
+    "--dsh-claude-period-dot-orbit": "2.4s",
+    "--dsh-claude-period-dot-rotate": "10s",
+    "--dsh-claude-duration-reduced": ".01ms",
+    "--dsh-claude-period-host-sweep": "1.5s",
+    "--dsh-claude-duration-host-sweep-delay": ".3s",
+    "--dsh-claude-period-preview-swap": "4s",
+    "--dsh-claude-period-preview-reveal": "4s",
+    "--dsh-claude-period-preview-caret": "4s",
+    "--dsh-claude-period-preview-enter": "2.6s",
+    "--dsh-claude-period-wash-hue": "4s",
+    "--dsh-claude-period-wash-drift": "5s",
+    "--dsh-claude-period-pulse": "1.6s",
+    "--dsh-claude-period-flash": "1.45s",
+    "--dsh-claude-period-flow": "4s",
+    "--dsh-claude-period-blink": "1s",
+    "--dsh-claude-period-breathe": "2.4s",
+    "--dsh-claude-period-spin": ".85s",
+    "--dsh-claude-period-landed": "1.4s",
+    "--dsh-claude-period-hold": ".84s",
+    "--dsh-claude-period-dot-bounce": ".5s",
+    "--dsh-claude-period-dot-line": "1.25s",
+    "--dsh-claude-ease-standard": "ease",
+    "--dsh-claude-ease-out": "ease-out",
+    "--dsh-claude-ease-enter": "cubic-bezier(.34, 1.3, .64, 1)",
+    "--dsh-claude-ease-in-out": "ease-in-out",
+    "--dsh-claude-ease-glide": "cubic-bezier(.22, .61, .36, 1)",
+    "--dsh-claude-ease-roll": "cubic-bezier(.4, 0, .2, 1)",
+    "--dsh-claude-ease-spring": "cubic-bezier(.34, 1.45, .64, 1)",
+    "--dsh-claude-ease-settle": "cubic-bezier(.22, 1, .36, 1)",
+    "--dsh-claude-ease-host-sweep": "steps(48, end)",
+    "--dsh-claude-ease-harmonic": "cubic-bezier(.37, 0, .63, 1)",
+    "--dsh-claude-ease-damped-out": "cubic-bezier(.33, 1, .68, 1)",
+    "--dsh-claude-ease-damped-in": "cubic-bezier(.32, 0, .67, 0)",
+    "--dsh-claude-distance-nudge": "4px",
+    "--dsh-claude-distance-travel": "8px",
+    "--dsh-claude-distance-rise": "12px",
+    "--dsh-claude-blur-soft": "2px",
+    "--dsh-claude-blur-enter": "3px",
+    "--dsh-claude-scale-surface": ".98",
+    "--dsh-claude-scale-dropdown": ".97",
+    "--dsh-claude-scale-dropdown-exit": ".99",
+    "--dsh-claude-scale-dialog": ".96",
+    "--dsh-claude-scale-dot-mid": ".55",
+    "--dsh-claude-timing-feedback": ".12s ease",
+    "--dsh-claude-timing-surface": ".15s ease",
+    "--dsh-claude-layer-control": "10",
+    "--dsh-claude-layer-picker": "20",
+    "--dsh-claude-layer-chrome": "30",
+    "--dsh-claude-layer-float": "99999",
+    "--dsh-claude-layer-takeover": "2147483000",
+    "--dsh-claude-font-serif": "\"Anthropic Serif Web Text\",\"Claude Style Noto Serif\",Georgia,\"Times New Roman\",\"Noto Sans SC\",\"Source Han Sans SC\",\"Ping",
+    "--dsh-claude-font-prose": "\"Anthropic Serif Web Text\",\"Claude Style Noto Serif\",Georgia,\"Times New Roman\",\"Noto Sans SC\",\"Source Han Sans SC\",\"Ping",
+    "--dsh-claude-font-code": "\"Anthropic Mono Web\",\"JetBrains Mono\",\"Noto Sans SC\",\"Source Han Sans SC\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft Ya",
+    "--dsh-claude-font-brand": "\"Anthropic Serif Web Text\", \"Anthropic Serif Web Text\",\"Claude Style Noto Serif\",Georgia,\"Times New Roman\",\"Noto Sans SC",
+    "--dsh-claude-apex": "#8b7ad0",
+    "--dsh-claude-apex-flash": "#d9d2f5",
+    "--dsh-claude-apex-ink": "#5f51b5",
+    "--dsh-claude-hover-bg": "rgba(38, 49, 72, .08)",
+    "--dsh-claude-inline-code-bg": "rgba(38, 49, 72, .05)",
+    "--dsh-claude-inline-code-fg": "#0f1115",
+    "--dsh-claude-link": "#3b56d9",
+    "--dsh-claude-link-underline": "rgba(59, 86, 217, .6)",
+    "--dsh-claude-canvas": "#fafbff",
+    "--dsh-claude-sidebar-canvas": "#f7f9ff",
+    "--dsh-claude-raised": "",
+    "--dsh-claude-card": "#fafbff",
+    "--dsh-claude-inverse-fill": "#141413",
+    "--dsh-claude-inverse-ink": "#faf9f5",
+    "--dsh-claude-ink-strong": "",
+    "--dsh-claude-session-ink": "",
+    "--dsh-claude-table-head": "#eff3fb",
+    "--dsh-claude-ripple-ink": "#8a92a6",
+    "--dsh-claude-ripple-wave": "#3b6ef0",
+    "--dsh-claude-scrollbar": "rgba(206, 216, 233, .9)",
+    "--dsh-claude-scrollbar-hover": "rgba(129, 133, 140, .8)",
+    "--dsh-claude-link-hover": "#2c43b8",
+    "--dsh-claude-logo-ink": "#4d6bfe",
+    "--dsh-claude-meter-peak": "#9a5a1a",
+    "--dsh-claude-meter-valley": "#2e7554",
+    "--dsh-claude-chip": "#f2f6fd",
+    "--dsh-claude-swap-distance": "8px",
+    "--dsh-claude-swap-blur": "2px",
+    "--dsh-claude-swap-duration": ".15s",
+    "--dsh-claude-swap-gap": "50ms",
+    "--dsh-claude-swap-ease": "ease-in-out",
+    "--dsh-claude-band-mask": "linear-gradient(105deg, transparent 0%, #000 40% 60%, transparent 100%)",
+    "--dsh-claude-wash-layers": "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 67 42' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rec",
+    "--dsh-claude-wash-sizes": "180% 180%, 180% 180%, 180% 180%, 180% 180%, 180% 180%, 180% 180%, 180% 180%, 100% 100%",
+    "--dsh-claude-surface-from": "",
+    "--dsh-claude-surface-scale": "",
+    "--dsh-claude-surface-to": "",
+    "--dsh-claude-pill-w": "",
+    "--dsh-claude-pill-h": "",
+    "--dsh-claude-pill-x": "",
+    "--dsh-claude-pill-y": "",
+    "--dsh-claude-mask-claude-mark": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20148.09%20148.18'%3E",
+    "--dsh-claude-mask-claude-word": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'177.76%2014.09%20512.22%201",
+    "--dsh-claude-fade-stops": "#fafbff 0%, color-mix(in srgb, #fafbff 82%, transparent) 32%, color-mix(in srgb, #fafbff 40%, transparent) 68%, transpar",
+    "--dsh-claude-tone-red": "#af514d",
+    "--dsh-claude-tone-red-orange": "#af6045",
+    "--dsh-claude-tone-orange": "#af784e",
+    "--dsh-claude-tone-yellow": "#8b6d42",
+    "--dsh-claude-tone-lime": "#779756",
+    "--dsh-claude-tone-green-light": "#6da173",
+    "--dsh-claude-tone-green": "#46784e",
+    "--dsh-claude-pie-rest": "rgba(20, 20, 19, .14)",
+    "--dsh-claude-bar-h": "",
+    "--dsh-claude-meter-row-offset": "",
+    "--dsh-claude-mobile-stats-lift": "",
+    "--dsh-claude-meter-row-height": "",
+    "--dsh-claude-meter-room": "",
+    "--dsh-claude-context-panel-left": "",
+    "--dsh-claude-ramp-from": "",
+    "--dsh-claude-ramp-to": "",
+    "--dsh-claude-ramp-ink": "",
+    "--dsh-claude-ramp-position": "",
+    "--dsh-claude-custom-mark": "",
+    "--dsh-claude-custom-word-ratio": "",
+    "--dsh-claude-custom-word": "",
+    "--dsh-claude-custom-name": "",
+    "--dsh-claude-custom-accent": "",
+    "--dsh-claude-custom-accent-ink": "",
+    "--dsh-claude-turn-rail-band": "",
+    "--dsh-claude-turn-rail-height": ""
+  },
+  "rootVars": {
+    "--dsw-font-family": "\"Anthropic Sans Web Text\",\"Claude Style Inter\",\"Noto Sans SC\",\"Source Han Sans SC\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Hiragino Sans GB\",",
+    "--dsw-font-markdown-body": "",
+    "--dsw-font-markdown-code": "12px/19px \"SF Mono\", \"JetBrains Mono\", \"Fira Code\", Consolas, \"Liberation Mono\", Menlo, Courier, \"PingFang SC\", \"Microsoft YaHei\"",
+    "--dsw-color-bg": "",
+    "--dsw-color-fg": "",
+    "--dsw-color-accent": "",
+    "--dsh-claude-font-serif": "\"Anthropic Serif Web Text\",\"Claude Style Noto Serif\",Georgia,\"Times New Roman\",\"Noto Sans SC\",\"Source Han Sans SC\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft Y",
+    "--dsh-claude-font-code": "\"Anthropic Mono Web\",\"JetBrains Mono\",\"Noto Sans SC\",\"Source Han Sans SC\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft YaHei\",ui-monospace,\"SF Mono\",\"Fira Code\",",
+    "--dsh-claude-font-prose": "\"Anthropic Serif Web Text\",\"Claude Style Noto Serif\",Georgia,\"Times New Roman\",\"Noto Sans SC\",\"Source Han Sans SC\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft Y",
+    "--dsh-claude-accent": ""
+  },
+  "regions": {
+    "nav": {
+      "tag": "NAV",
+      "rect": {
+        "x": 12,
+        "y": 82,
+        "w": 256,
+        "h": 34
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans SC\", \"Source Han Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingF",
+      "z": "auto"
+    },
+    "aside": null,
+    "main": null,
+    "header": {
+      "tag": "HEADER",
+      "rect": {
+        "x": 280,
+        "y": 0,
+        "w": 1160,
+        "h": 40
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans SC\", \"Source Han Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingF",
+      "z": "auto"
+    },
+    "footer": null,
+    "sidebar": null,
+    "center": null,
+    "composer": {
+      "tag": "DIV",
+      "rect": {
+        "x": 280,
+        "y": 40,
+        "w": 1148,
+        "h": 960
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 17, 21)",
+      "border": "rgb(15, 17, 21)",
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans SC\", \"Source Han Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingF",
+      "z": "auto"
+    },
+    "send": {
+      "tag": "BUTTON",
+      "rect": {
+        "x": 1164,
+        "y": 916,
+        "w": 26,
+        "h": 26
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(173, 178, 184)",
+      "border": "rgb(173, 178, 184)",
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans SC\", \"Source Han Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingF",
+      "z": "10"
+    },
+    "primary": {
+      "tag": "BUTTON",
+      "rect": {
+        "x": 12,
+        "y": 16,
+        "w": 220,
+        "h": 24
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 107, 254)",
+      "border": "rgb(77, 107, 254)",
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans SC\", \"Source Han Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingF",
+      "z": "auto"
+    },
+    "h1": null,
+    "p": null
+  },
+  "textSample": "新会话\nCtrl\nAlt\nN\n插件\n工作区\n默认工作区\n新会话\nUSER\nWhat's up next, USER?\n默认工作区\n标准模式\n概览\n模型\n全部\n30 天\n7 天\n会话数\n0\n消息数\n0\nToken 总量\n0\n活跃天数\n0\n高峰时段\n—\n最常用模型\n—\nHow can I help you today?\n完全权限\nDeepSeek-V41-Flash\nHigh"
+}

@@ -1,0 +1,220 @@
+{
+  "host": {
+    "pid": 25020,
+    "url": "http://127.0.0.1:9466/?token=REDACTED",
+    "utc": "2026-10-21T10:56:23.389Z"
+  },
+  "out": {
+    "tag": "src2-boot",
+    "createdAt": 1792580483666,
+    "sessionStorage": {
+      "dsh.workspace.view.v5": "{\"groupBy\":\"workspace\",\"orderBy\":\"updated\",\"groupExpansion\":{\"00158d47-47fc-4c81-b7fa-a52c331c8f1e\":true},\"sessionOrderByAccount\":{},\"archivedFilter\":\"default\"}",
+      "dsh.sessions.current": "{\"sessionId\":\"session-9db36dc4-f9b6-4f31-8288-84b4e834ecb1\"}",
+      "dsh.sidebar-right.v1.session-9db36dc4-f9b6-4f31-8288-84b4e834ecb1": "{\"bySession\":{\"session-9db36dc4-f9b6-4f31-8288-84b4e834ecb1\":{\"layout\":{\"nodes\":{\"pane1\":{\"kind\":\"pane\",\"id\":\"pane1\",\"host\":\"dock\",\"tabs\":[]}},\"tabs\":{},\"rootId\":\"pane1\",\"floats\":[],\"activePaneId\":\"pane1\",\"expanded\":false,\"mode\":\"push\"},\"minted\":1}}}"
+    },
+    "openedAt": 1792580486199,
+    "paletteAfterSession": {
+      "n": 13,
+      "active": "dsh-spotlight-option-0",
+      "count": "13 个结果",
+      "items": [
+        "聚焦输入框 | Focus message composer | 操作",
+        "新建会话 | New conversation | 操作",
+        "打开插件设置 | Open installed plugin settings | 操作",
+        "default-workspace | H:\\视频\\document\\deepseek-harness\\default-workspace | 会话",
+        "收起侧边栏 | 界面操作 · UI action | 操作",
+        "插件 | 界面操作 · UI action | 操作",
+        "搜索会话 | 界面操作 · UI action | 操作",
+        "cordis:include | include | 插件",
+        "plugin-manager/tools | include:tool-plugin-manager · 已禁用 | 插件",
+        "plugin-manager | include:plugin-manager | 插件",
+        "timer | include:timer | 插件",
+        "hmr | include:hmr | 插件",
+        "llm | include:llm | 插件"
+      ],
+      "kinds": [
+        "操作",
+        "操作",
+        "操作",
+        "会话",
+        "操作",
+        "操作",
+        "操作",
+        "插件",
+        "插件",
+        "插件",
+        "插件",
+        "插件",
+        "插件"
+      ]
+    },
+    "q_compact": {
+      "n": 6,
+      "active": "dsh-spotlight-option-0",
+      "count": "6 个结果",
+      "items": [
+        "compaction-basic | include:compaction-basic · 已禁用 | 插件",
+        "compaction-image-offload | include:image-offload | 插件",
+        "compaction-tool-result-pruner | include:tool-result-pruner · 已禁用 | 插件",
+        "command-compact | include:command-compact · 已禁用 | 插件",
+        "deepseek-account-platform | include:deepseek-account | 插件",
+        "llm-deepseek-account | include:llm-deepseek-account | 插件"
+      ],
+      "kinds": [
+        "插件",
+        "插件",
+        "插件",
+        "插件",
+        "插件",
+        "插件"
+      ]
+    },
+    "q_goal": {
+      "n": 6,
+      "active": "dsh-spotlight-option-0",
+      "count": "6 个结果",
+      "items": [
+        "goal | include:goal | 插件",
+        "goal-round-driver | include:goal-round-driver | 插件",
+        "ui-goal | include:ui-goal | 插件",
+        "tool-goal | include:tool-goal · 已禁用 | 插件",
+        "command-goal | include:command-goal · 已禁用 | 插件",
+        "agent-loop | include:agent-loop | 插件"
+      ],
+      "kinds": [
+        "插件",
+        "插件",
+        "插件",
+        "插件",
+        "插件",
+        "插件"
+      ]
+    },
+    "q_export": {
+      "n": 1,
+      "active": "dsh-spotlight-option-0",
+      "count": "1 个结果",
+      "items": [
+        "session-log-export | include:session-log-download | 插件"
+      ],
+      "kinds": [
+        "插件"
+      ]
+    },
+    "fetchLog": [
+      {
+        "url": "api/settings/describe",
+        "t": 1792580479578
+      },
+      {
+        "url": "api/dynamicCordisRunner/syncInspectManifest",
+        "t": 1792580479646
+      },
+      {
+        "url": "api/credentials/describe",
+        "t": 1792580479651
+      },
+      {
+        "url": "api/dynamicCordisRunner/inventory",
+        "t": 1792580479670
+      },
+      {
+        "url": "open-in-app/apps",
+        "t": 1792580479716
+      },
+      {
+        "url": "api/session/modelCatalog",
+        "t": 1792580479727
+      },
+      {
+        "url": "api/agentPresets/list",
+        "t": 1792580479852
+      },
+      {
+        "url": "api/session/list",
+        "t": 1792580479878
+      },
+      {
+        "url": "api/permissionPresets/catalog",
+        "t": 1792580479879
+      },
+      {
+        "url": "api/dynamicCordisRunner/inventory",
+        "t": 1792580479880
+      },
+      {
+        "url": "api/agentPresets/list",
+        "t": 1792580479881
+      },
+      {
+        "url": "api/agentPresets/list",
+        "t": 1792580479881
+      },
+      {
+        "url": "api/session/modelCatalog",
+        "t": 1792580479882
+      },
+      {
+        "url": "api/credentials/describe",
+        "t": 1792580479892
+      },
+      {
+        "url": "api/settings/describe",
+        "t": 1792580479893
+      },
+      {
+        "url": "api/dynamicCordisRunner/syncInspectManifest",
+        "t": 1792580479894
+      },
+      {
+        "url": "api/credentials/describe",
+        "t": 1792580479948
+      },
+      {
+        "url": "api/session/create",
+        "t": 1792580479957
+      },
+      {
+        "url": "api/llm/listProviders",
+        "t": 1792580479961
+      },
+      {
+        "url": "api/llm/listConfigurableProviders",
+        "t": 1792580479962
+      },
+      {
+        "url": "api/agentPresets/list",
+        "t": 1792580479998
+      },
+      {
+        "url": "api/commands/list",
+        "t": 1792580480025
+      },
+      {
+        "url": "api/skills/list",
+        "t": 1792580480025
+      },
+      {
+        "url": "api/session/modelCatalog",
+        "t": 1792580480026
+      },
+      {
+        "url": "api/credentials/describe",
+        "t": 1792580480044
+      },
+      {
+        "url": "api/credentials/describe",
+        "t": 1792580480060
+      },
+      {
+        "url": "api/session/create",
+        "t": 1792580483679
+      },
+      {
+        "url": "api/pluginInventory/list",
+        "t": 1792580486239
+      }
+    ]
+  },
+  "errors": []
+}

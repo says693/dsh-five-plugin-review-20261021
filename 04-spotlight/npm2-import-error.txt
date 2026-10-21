@@ -1,0 +1,1 @@
+IMPORT_FAIL ERR_MODULE_NOT_FOUND Cannot find package 'schemastery' imported from H:\CODEX\five-plugin-reviews-20261021\04-spotlight\home\profiles\spot-npm2\node_modules\@0xsline\dsh-spotlight\lib\index.js

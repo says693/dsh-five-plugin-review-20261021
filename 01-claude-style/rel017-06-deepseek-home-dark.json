@@ -1,0 +1,118 @@
+{
+  "url": "http://127.0.0.1:7025/",
+  "viewport": {
+    "w": 1440,
+    "h": 1000
+  },
+  "doc": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "overflowX": false
+  },
+  "bodyAttrs": {
+    "data-ds-dark-theme": "",
+    "data-dsh-claude-brand": "deepseek",
+    "data-dsh-claude-palette": "claude",
+    "data-dsh-claude-typeface": "claude",
+    "data-dsh-claude-mascot": "deepy",
+    "data-dsh-claude-dock-look": "card",
+    "data-dsh-claude-search-style": "overlay",
+    "data-dsh-claude-sidebar-layout": "relaxed",
+    "data-dsh-claude-ongoing-indicator": "breathe",
+    "data-dsh-claude-stats-position": "context",
+    "data-dsh-claude-status-motion": "sweep",
+    "data-dsh-claude-footer-takeover": "true",
+    "data-dsh-claude-motion": "full",
+    "data-dsh-claude-style": "0538e7351c25",
+    "data-dsh-claude-style-handoff": "0538e7351c25",
+    "data-dsh-claude-home-layout": "studio",
+    "data-dsh-claude-permissions": "",
+    "data-dsh-claude-chat-follow": "",
+    "data-dsh-claude-chat-fold": "",
+    "style": "--dsh-content-font-size: 14px; --dsh-claude-account-width: 256px; --dsh-claude-account-inset-left: 12px; --dsh-claude-account-inset-right: 12px;",
+    "data-dsh-claude-composer-active": "",
+    "data-dsh-claude-session-stats": ""
+  },
+  "htmlAttrs": {
+    "lang": "zh-CN",
+    "data-ds-theme-source": "system",
+    "style": "color-scheme: dark;",
+    "data-input-modality": "pointer"
+  },
+  "bodyStyle": {
+    "bg": "rgb(19, 22, 29)",
+    "color": "rgb(238, 241, 248)"
+  },
+  "metaTheme": [
+    "rgb(20, 20, 19)"
+  ],
+  "media": {
+    "dark": true
+  },
+  "samples": [
+    {
+      "label": "body",
+      "text": "新会话\nCtrl\nAlt\nN\n插件\n工作区\n默认工作区\n新会话\nUSER\nWh",
+      "fg": "rgb(238, 241, 248)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 16.01,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    },
+    {
+      "label": "sidebar-new-session",
+      "text": "新建会话",
+      "fg": "rgb(77, 107, 254)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 4.18,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    },
+    {
+      "label": "plugin-button",
+      "text": "插件",
+      "fg": "rgb(233, 237, 246)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 15.44,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    },
+    {
+      "label": "header-title",
+      "text": "",
+      "fg": "rgb(238, 241, 248)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 16.01,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    },
+    {
+      "label": "send-button",
+      "text": "发送消息",
+      "fg": "rgb(102, 110, 126)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 3.53,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    },
+    {
+      "label": "model-picker",
+      "text": "DeepSeek-V41-Flash",
+      "fg": "rgb(174, 181, 196)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 8.8,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    },
+    {
+      "label": "settings-tab",
+      "missing": true
+    },
+    {
+      "label": "plugin-text",
+      "missing": true
+    },
+    {
+      "label": "account-row",
+      "text": "USER",
+      "fg": "rgb(238, 241, 248)",
+      "bg": "rgba(19, 22, 29, 1)",
+      "contrast": 16.01,
+      "font": "\"Anthropic Sans Web Text\", \"Claude Style Inter\", \"Noto Sans "
+    }
+  ]
+}
