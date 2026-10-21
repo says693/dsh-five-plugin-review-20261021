@@ -1,0 +1,99 @@
+{
+  "host": {
+    "pid": 22288,
+    "url": "http://127.0.0.1:12279/?token=REDACTED",
+    "utc": "2026-10-21T13:41:00.891Z",
+    "bin": "C:/Users/USER/AppData/Roaming/npm/node_modules/@deepseek-ai/dsh/lib/bin.js",
+    "home": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\r1-home"
+  },
+  "sessions": [
+    "workspace",
+    "新会话",
+    "FM 多轮 1小时",
+    "FM 裸路径 1小时",
+    "FM 边界异常 1小时",
+    "FM 基础识别 1小时",
+    "未分组"
+  ],
+  "clicked": true,
+  "ranges": [
+    {
+      "text": "~/nope.md",
+      "x": 854,
+      "y": 245
+    }
+  ],
+  "results": [
+    {
+      "target": "~/nope.md",
+      "slice": [
+        {
+          "k": "req",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "body": "{\"sessionId\":\"sess-fm-bare\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+        },
+        {
+          "k": "res",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "status": 404
+        },
+        {
+          "k": "req",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "body": "{\"sessionId\":\"session-50e21f0a-239d-48eb-acb1-6ab0eac025b3\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+        },
+        {
+          "k": "res",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "status": 404
+        },
+        {
+          "k": "req",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "body": "{\"sessionId\":\"sess-fm-bare2\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+        },
+        {
+          "k": "res",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "status": 400
+        },
+        {
+          "k": "req",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "body": "{\"sessionId\":\"sess-fm-multi\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+        },
+        {
+          "k": "res",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "status": 400
+        },
+        {
+          "k": "req",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "body": "{\"sessionId\":\"sess-fm-boundary\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+        },
+        {
+          "k": "res",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "status": 400
+        },
+        {
+          "k": "req",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "body": "{\"sessionId\":\"sess-fm-baseline\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+        },
+        {
+          "k": "res",
+          "url": "http://127.0.0.1:12279/api/file-mentions/open",
+          "status": 400
+        }
+      ],
+      "ui": {
+        "toasts": [
+          "已完成"
+        ],
+        "bodyHasMissing": false
+      }
+    }
+  ]
+}

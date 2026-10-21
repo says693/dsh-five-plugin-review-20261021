@@ -1,0 +1,430 @@
+{
+  "baseline": {
+    "codes": [
+      {
+        "i": 0,
+        "text": "docs/plan.md",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 1,
+        "text": "H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 2,
+        "text": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 3,
+        "text": "带中文目录/说明.md",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 4,
+        "text": "my notes.txt",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 5,
+        "text": "src",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 6,
+        "text": "docs",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 7,
+        "text": "docs/missing.md",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 8,
+        "text": "https://example.com/a/b.md",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      }
+    ],
+    "chipRows": [
+      {
+        "rowClass": "",
+        "rowHtmlLen": 5890,
+        "btns": [
+          {
+            "title": "H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js（点击预览内容）",
+            "text": "main.js",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js（点击预览内容）",
+            "text": "main.js",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "docs/plan.md（点击预览内容）",
+            "text": "plan.md",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "带中文目录/说明.md（点击预览内容）",
+            "text": "说明.md",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "my notes.txt（点击预览内容）",
+            "text": "my notes.txt",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "src（点击预览内容）",
+            "text": "src",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "docs（点击预览内容）",
+            "text": "docs",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          }
+        ],
+        "rowText": "提到的文件main.jsmain.jsplan.md说明.mdmy notes.txtsrcdocs"
+      }
+    ],
+    "preTexts": []
+  },
+  "boundary": {
+    "codes": [
+      {
+        "i": 0,
+        "text": "\ndocs/plan.md\n",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": true,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "pre._plain_7gxqk_103",
+          "div._content_7gxqk_74",
+          "div._block_7gxqk_4",
+          "div._markdown_1ypvv_5"
+        ]
+      },
+      {
+        "i": 1,
+        "text": "docs/plan.md",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 2,
+        "text": "src/main.js",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 3,
+        "text": "\nsrc/main.js\n",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": true,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "pre.shiki",
+          "div",
+          "div._content_7gxqk_74",
+          "div._block_7gxqk_4"
+        ]
+      },
+      {
+        "i": 4,
+        "text": "docs/plan.md?v=2",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 5,
+        "text": "docs/plan.md#L1",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 6,
+        "text": "docs/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "marked": null,
+        "nextSiblingFmBtn": false,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 7,
+        "text": "docs/plan.md",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 8,
+        "text": "docs/plan.md",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      },
+      {
+        "i": 9,
+        "text": "README.md",
+        "marked": "1",
+        "nextSiblingFmBtn": true,
+        "inPre": false,
+        "inA": false,
+        "inButton": false,
+        "parentChain": [
+          "p",
+          "div._markdown_1ypvv_5",
+          "div.hWmORq_body",
+          "div.hWmORq_root"
+        ]
+      }
+    ],
+    "chipRows": [
+      {
+        "rowClass": "",
+        "rowHtmlLen": 2818,
+        "btns": [
+          {
+            "title": "docs/plan.md（点击预览内容）",
+            "text": "plan.md",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "src/main.js（点击预览内容）",
+            "text": "main.js",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          },
+          {
+            "title": "README.md（点击预览内容）",
+            "text": "README.md",
+            "cls": ""
+          },
+          {
+            "title": "在文件管理器中显示",
+            "text": "",
+            "cls": "dsh-fm-reveal"
+          }
+        ],
+        "rowText": "提到的文件plan.mdmain.jsREADME.md"
+      }
+    ],
+    "preTexts": [
+      "\ndocs/plan.md\n",
+      "\nsrc/main.js\n"
+    ]
+  },
+  "bare": {
+    "highlightCount": 1,
+    "ranges": [
+      {
+        "text": "~/nope.md",
+        "startOffset": 39,
+        "endOffset": 48,
+        "container": "裸路径（无反引号）：docs/plan.md 与 src/main.js 与 ~/nope.md。"
+      }
+    ],
+    "text": "第三组：裸路径 20:15 已完成 已完成，用时 5秒 裸路径（无反引号）：docs/plan.md 与 src/main.js 与 ~/nope.md。 裸 URL 对照：https://example.com/x/y.md 不应高亮。 提到的文件 main.js 20:15 发消息或创建任务, / 调用指令, @ 文件或对话 工作区内修改 DeepSeek-V41-Flash High 1 轮 1 步"
+  }
+}

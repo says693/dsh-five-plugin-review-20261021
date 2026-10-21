@@ -1,0 +1,120 @@
+{
+  "utc": "2026-10-21T13:14:40.626Z",
+  "before": {
+    "dir": [
+      "AGENTS.md",
+      "AGENTS.md.disabled",
+      "leaf"
+    ],
+    "activeSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+    "disabledSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+    "mtimes": {
+      "active": "2026-10-21T13:01:41.798Z",
+      "disabled": "2026-10-21T13:14:27.738Z"
+    }
+  },
+  "rowBefore": {
+    "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+    "dotState": "done",
+    "ruleText": "",
+    "switchChecked": "true"
+  },
+  "dialog": {
+    "has": true,
+    "title": "暂停「工作区文件」",
+    "lines": [
+      "把文件改名，内容完整保留、不删除：",
+      "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md",
+      "→ H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md.disabled",
+      "改名后官方探测不到它，因而不会导入对话。"
+    ],
+    "btns": [
+      "取消",
+      "暂停"
+    ]
+  },
+  "feedback": {
+    "status": "已暂停（文件保留）· 对之后的请求即时生效",
+    "live": [
+      {
+        "cls": "_toast_l6cvn_6",
+        "ariaLive": null,
+        "text": "已暂停（文件保留）· 对之后的请求即时生效"
+      }
+    ],
+    "pausedTexts": [
+      {
+        "cls": "",
+        "text": "已暂停（文件保留）· 对之后的请求即时生效"
+      }
+    ]
+  },
+  "rowAfter": {
+    "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+    "dotState": "done",
+    "ruleText": "",
+    "switchChecked": "true"
+  },
+  "after": {
+    "dir": [
+      "AGENTS.md",
+      "AGENTS.md.disabled",
+      "leaf"
+    ],
+    "activeExists": true,
+    "disabledExists": true,
+    "activeSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+    "disabledSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+    "mtimes": {
+      "active": "2026-10-21T13:01:41.798Z",
+      "disabled": "2026-10-21T13:14:27.738Z"
+    }
+  },
+  "rowAfterReload": {
+    "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+    "dotState": "done",
+    "ruleText": "",
+    "switchChecked": "true"
+  },
+  "unchanged": true,
+  "errors": [],
+  "consoleLog": [],
+  "net": [
+    {
+      "req": true,
+      "path": "/api/dsh-agent/state",
+      "method": "GET",
+      "utc": "2026-10-21T13:14:32.484Z"
+    },
+    {
+      "path": "/api/dsh-agent/state",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T13:14:32.499Z"
+    },
+    {
+      "req": true,
+      "path": "/api/dsh-agent/layers",
+      "method": "PUT",
+      "utc": "2026-10-21T13:14:36.112Z"
+    },
+    {
+      "path": "/api/dsh-agent/layers",
+      "method": "PUT",
+      "status": 200,
+      "utc": "2026-10-21T13:14:36.125Z"
+    },
+    {
+      "req": true,
+      "path": "/api/dsh-agent/state?cwd=H%3A%5CCODEX%5Cthree-plugin-reviews-20261021%5C03-agent-instructions%5Cfixtures%5Cworkspace%5Csub%5Cdeep%5Cinner%5Cleaf&target=H%3A%5CCODEX%5Cthree-plugin-reviews-20261021%5C03-agent-instructions%5Cfixtures%5Cworkspace%5Csub%5Cdeep%5Cinner%5Cleaf%5CAGENTS.md",
+      "method": "GET",
+      "utc": "2026-10-21T13:14:38.384Z"
+    },
+    {
+      "path": "/api/dsh-agent/state?cwd=H%3A%5CCODEX%5Cthree-plugin-reviews-20261021%5C03-agent-instructions%5Cfixtures%5Cworkspace%5Csub%5Cdeep%5Cinner%5Cleaf&target=H%3A%5CCODEX%5Cthree-plugin-reviews-20261021%5C03-agent-instructions%5Cfixtures%5Cworkspace%5Csub%5Cdeep%5Cinner%5Cleaf%5CAGENTS.md",
+      "method": "GET",
+      "status": 200,
+      "utc": "2026-10-21T13:14:38.403Z"
+    }
+  ]
+}

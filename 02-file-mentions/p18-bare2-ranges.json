@@ -1,0 +1,74 @@
+{
+  "navExists": 1,
+  "card": {
+    "textareaCount": 1,
+    "textareas": [
+      {
+        "placeholder": "/Volumes/U盘名\n~/Desktop",
+        "rows": 4,
+        "value": "",
+        "w": 564
+      }
+    ],
+    "saveButtons": [
+      {
+        "text": "保存",
+        "cls": "dsh-fm-save",
+        "disabled": false
+      }
+    ],
+    "bodySnippet": "新会话\nCtrl\n+\nAlt\n+\nN\n插件\n工作区\nworkspace\n新会话\nFM 多轮\n1小时\nFM 裸路径\n1小时\nFM 边界异常\n1小时\nFM 基础识别\n1小时\n未分组\n设置\n探索未至之境\n预览版\nworkspace\n标准模式\n描述你想要构建的内容, / 调用指令, @ 文件或对话\n工作区内修改\nDeepSeek-V41-Flash\nHigh\n设置\n通用设置\n模型\n内置插件\nAgent 预设\n文件提及\n打开配置文件\n关闭\n文件提及\n外置盘白名单：**本机目录（家目录内，如 ~/Downloads、~/Desktop）默认可显示并点击打开，无需配置**；此处只登记外置盘/网络盘根目录（如"
+  },
+  "saveResult": {
+    "saveText": [
+      "✓ 已保存"
+    ],
+    "messages": [
+      "✓ 已保存已保存，立即生效",
+      "已保存，立即生效"
+    ],
+    "taValue": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures\\outside"
+  },
+  "cfgPosts": [
+    {
+      "body": "{\"extraProbeRoots\":[\"H:\\\\CODEX\\\\three-plugin-reviews-20261021\\\\02-file-mentions\\\\fixtures\\\\outside\"]}"
+    }
+  ],
+  "cfgAfter": {
+    "status": 200,
+    "body": "{\"ok\":true,\"extraProbeRoots\":[\"H:\\\\CODEX\\\\three-plugin-reviews-20261021\\\\02-file-mentions\\\\fixtures\\\\outside\"]}"
+  },
+  "hasBare2": 1,
+  "rects": [
+    {
+      "text": "/etc/hosts",
+      "x": 625.71875,
+      "y": 284.5
+    },
+    {
+      "text": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js",
+      "x": 889.125,
+      "y": 324.5
+    },
+    {
+      "text": "H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js",
+      "x": 889.578125,
+      "y": 364.5
+    },
+    {
+      "text": "~/nope.md",
+      "x": 615.640625,
+      "y": 404.5
+    }
+  ],
+  "etcReqs": [
+    {
+      "body": "{\"sessionId\":\"sess-fm-bare2\",\"path\":\"/etc/hosts\",\"mode\":\"open\"}"
+    }
+  ],
+  "tildeReqs": [
+    {
+      "body": "{\"sessionId\":\"sess-fm-bare2\",\"path\":\"~/nope.md\",\"mode\":\"open\"}"
+    }
+  ]
+}

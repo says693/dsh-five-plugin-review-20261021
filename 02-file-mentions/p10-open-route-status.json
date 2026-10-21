@@ -1,0 +1,50 @@
+{
+  "missingFile": {
+    "status": 404,
+    "body": "{\"ok\":false,\"error\":\"路径不存在: docs/missing.md\"}"
+  },
+  "outOfScopeAbs": {
+    "status": 404,
+    "body": "{\"ok\":false,\"error\":\"路径不存在: C:\\\\Windows\\\\win.ini\"}"
+  },
+  "outOfScopeEtc": {
+    "status": 404,
+    "body": "{\"ok\":false,\"error\":\"路径不存在: /etc/hosts\"}"
+  },
+  "traversal": {
+    "status": 404,
+    "body": "{\"ok\":false,\"error\":\"路径不存在: ../../../../Windows/win.ini\"}"
+  },
+  "badSession": {
+    "status": 400,
+    "body": "{\"ok\":false,\"error\":\"会话不存在\"}"
+  },
+  "noPath": {
+    "status": 400,
+    "body": "{\"ok\":false}"
+  },
+  "queryString": {
+    "status": 404,
+    "body": "{\"ok\":false,\"error\":\"路径不存在: docs/plan.md?v=2\"}"
+  },
+  "existingFile": {
+    "status": 200,
+    "body": "{\"ok\":true}"
+  },
+  "existingDirReveal": {
+    "status": 200,
+    "body": "{\"ok\":true}"
+  },
+  "tildeMissing": {
+    "status": 404,
+    "body": "{\"ok\":false,\"error\":\"路径不存在: ~/nope.md\"}"
+  },
+  "configGet": {
+    "status": 200,
+    "body": "{\"ok\":true,\"extraProbeRoots\":[]}"
+  },
+  "configBadMethod": {
+    "status": 405,
+    "body": "{\"ok\":false,\"error\":\"method not allowed\"}"
+  }
+}

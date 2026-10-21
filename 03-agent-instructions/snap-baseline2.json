@@ -1,0 +1,82 @@
+{
+  "label": "baseline2",
+  "utc": "2026-10-21T13:01:41.913Z",
+  "dshHome": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\isolated-home",
+  "workspace": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace",
+  "files": [
+    {
+      "path": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\AGENTS.md",
+      "rel": "fixtures\\workspace\\AGENTS.md",
+      "bytes": 56,
+      "sha256": "16b0db8a17ee03aa7c9f6316f284c52952c4c538635ec96724c38b168ffc4576",
+      "mtime": "2026-10-21T13:01:41.757Z",
+      "head": "# Root rules\\n\\n- root marker ROOT-1\\n- keep replies short\\n"
+    },
+    {
+      "path": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\CLAUDE.md",
+      "rel": "fixtures\\workspace\\CLAUDE.md",
+      "bytes": 56,
+      "sha256": "16b0db8a17ee03aa7c9f6316f284c52952c4c538635ec96724c38b168ffc4576",
+      "mtime": "2026-10-21T13:01:41.758Z",
+      "head": "# Root rules\\n\\n- root marker ROOT-1\\n- keep replies short\\n"
+    },
+    {
+      "path": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\AGENTS.local.md",
+      "rel": "fixtures\\workspace\\sub\\AGENTS.local.md",
+      "bytes": 51,
+      "sha256": "49e7a93d8ddf67e928b4f3cc801079095ba61349ef9f2b54985cf87381b15bcc",
+      "mtime": "2026-10-21T13:01:41.772Z",
+      "head": "# Personal overlay\\n\\n- local overlay marker LOCAL-3\\n"
+    },
+    {
+      "path": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\AGENTS.md",
+      "rel": "fixtures\\workspace\\sub\\AGENTS.md",
+      "bytes": 40006,
+      "sha256": "99278e310252e7b2c0df68281ff27ee29b6e919de723408950ef6f3004e6941a",
+      "mtime": "2026-10-21T13:01:41.770Z",
+      "head": "# Sub layer rules\\n\\n- sub marker SUB-2\\n- filler line 0 for budget testing\\n- fille"
+    },
+    {
+      "path": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\AGENTS.md",
+      "rel": "fixtures\\workspace\\sub\\deep\\AGENTS.md",
+      "bytes": 1048707,
+      "sha256": "b332db7196304edbf10f7d40bc2903b3ca8925c970cbd57ab11dc3fd5afe9b8b",
+      "mtime": "2026-10-21T13:01:41.797Z",
+      "head": "# Huge layer\\n\\n- huge marker HUGE-4 (over 1MB source limit)\\n- huge filler line\\n- "
+    },
+    {
+      "path": "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\isolated-home\\AGENTS.md",
+      "rel": "isolated-home\\AGENTS.md",
+      "bytes": 74,
+      "sha256": "eabf1e1c1c534fa96c6f7845f1025c5a966c1f202c9c086230f8025a7fe26406",
+      "mtime": "2026-10-21T13:01:17.464Z",
+      "head": "# Global user rules\\n\\n- global marker GLOBAL-0\\n- applies to all workspaces\\n"
+    }
+  ],
+  "listing": {
+    "isolated-home": [
+      "AGENTS.md",
+      "cache",
+      "data",
+      "profiles"
+    ],
+    "fixtures\\workspace": [
+      ".git",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "sub"
+    ],
+    "fixtures\\workspace\\sub": [
+      "AGENTS.local.md",
+      "AGENTS.md",
+      "deep"
+    ],
+    "fixtures\\workspace\\sub\\deep": [
+      "AGENTS.md",
+      "inner"
+    ],
+    "fixtures\\workspace\\sub\\deep\\paused": null,
+    "fixtures\\workspace\\sub\\deep\\huge": null,
+    "fixtures\\workspace\\sub\\deep\\both": null
+  }
+}

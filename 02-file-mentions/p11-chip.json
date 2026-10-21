@@ -1,0 +1,340 @@
+{
+  "baseChips": {
+    "rows": [
+      {
+        "rowText": "提到的文件main.jsmain.jsplan.md说明.mdmy notes.txtsrcdocs",
+        "chips": [
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs/plan.md（点击预览内容）",
+            "mainText": "plan.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "带中文目录/说明.md（点击预览内容）",
+            "mainText": "说明.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "my notes.txt（点击预览内容）",
+            "mainText": "my notes.txt",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "src（点击预览内容）",
+            "mainText": "src",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs（点击预览内容）",
+            "mainText": "docs",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          }
+        ]
+      }
+    ],
+    "totalChipRows": 1
+  },
+  "afterReload": {
+    "rows": [
+      {
+        "rowText": "提到的文件main.jsmain.jsplan.md说明.mdmy notes.txtsrcdocs",
+        "chips": [
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs/plan.md（点击预览内容）",
+            "mainText": "plan.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "带中文目录/说明.md（点击预览内容）",
+            "mainText": "说明.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "my notes.txt（点击预览内容）",
+            "mainText": "my notes.txt",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "src（点击预览内容）",
+            "mainText": "src",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs（点击预览内容）",
+            "mainText": "docs",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          }
+        ]
+      }
+    ],
+    "totalChipRows": 1
+  },
+  "needOpen": false,
+  "afterReloadText": "第一组：基础识别 20:15 已完成 已完成，用时 5秒 相对路径：docs/plan.md 应该可点。 绝对 Windows 正斜杠：H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js 应该可点。 绝对 Windows 反斜杠：H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js 应该可点。 中文目录：带中文目录/说明.md 应该可点。 带空格文件：my",
+  "boundaryChips": {
+    "rows": [
+      {
+        "rowText": "提到的文件plan.mdmain.jsREADME.md",
+        "chips": [
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs/plan.md（点击预览内容）",
+            "mainText": "plan.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "src/main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "README.md（点击预览内容）",
+            "mainText": "README.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          }
+        ]
+      }
+    ],
+    "totalChipRows": 1
+  },
+  "backChips": {
+    "rows": [
+      {
+        "rowText": "提到的文件main.jsmain.jsplan.md说明.mdmy notes.txtsrcdocs",
+        "chips": [
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "H:/CODEX/three-plugin-reviews-20261021/02-file-mentions/fixtures/workspace/src/main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "H:\\CODEX\\three-plugin-reviews-20261021\\02-file-mentions\\fixtures/workspace\\src\\main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs/plan.md（点击预览内容）",
+            "mainText": "plan.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "带中文目录/说明.md（点击预览内容）",
+            "mainText": "说明.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "my notes.txt（点击预览内容）",
+            "mainText": "my notes.txt",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "src（点击预览内容）",
+            "mainText": "src",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs（点击预览内容）",
+            "mainText": "docs",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          }
+        ]
+      }
+    ],
+    "totalChipRows": 1
+  },
+  "multiChips": {
+    "rows": [
+      {
+        "rowText": "提到的文件README.md",
+        "chips": [
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "README.md（点击预览内容）",
+            "mainText": "README.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          }
+        ]
+      },
+      {
+        "rowText": "提到的文件plan.mdmain.js",
+        "chips": [
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": null,
+            "mainText": null,
+            "hasReveal": false,
+            "btnCount": 0,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "docs/plan.md（点击预览内容）",
+            "mainText": "plan.md",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          },
+          {
+            "mainTitle": "src/main.js（点击预览内容）",
+            "mainText": "main.js",
+            "hasReveal": true,
+            "btnCount": 2,
+            "hasClose": false
+          }
+        ]
+      }
+    ],
+    "totalChipRows": 2
+  },
+  "multiRows": [
+    {
+      "text": "提到的文件README.md"
+    },
+    {
+      "text": "提到的文件plan.mdmain.js"
+    }
+  ]
+}

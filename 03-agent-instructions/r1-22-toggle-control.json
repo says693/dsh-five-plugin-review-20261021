@@ -1,0 +1,209 @@
+{
+  "normalPause": {
+    "beforeDisk": {
+      "active": true,
+      "disabled": false
+    },
+    "rowBefore": {
+      "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+      "state": "done",
+      "switchChecked": "true",
+      "switchDisabled": false
+    },
+    "click": {
+      "ok": true,
+      "checked": "true"
+    },
+    "dialog": {
+      "has": true,
+      "title": "暂停「工作区文件」",
+      "lines": [
+        "把文件改名，内容完整保留、不删除：",
+        "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md",
+        "→ H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md.disabled",
+        "改名后官方探测不到它，因而不会导入对话。"
+      ],
+      "btns": [
+        "取消",
+        "暂停"
+      ]
+    },
+    "confirm": {
+      "ok": true,
+      "text": "暂停"
+    },
+    "after": {
+      "disk": {
+        "active": false,
+        "disabled": true,
+        "activeSha": null,
+        "disabledSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+        "dir": [
+          "AGENTS.md.disabled",
+          "leaf"
+        ]
+      },
+      "row": {
+        "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 已暂停，不会生效 41 字节",
+        "state": "idle",
+        "switchChecked": "false",
+        "switchDisabled": false
+      }
+    },
+    "renamedToDisabled": true,
+    "net": [
+      {
+        "req": true,
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "utc": "2026-10-21T13:13:24.846Z"
+      },
+      {
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "status": 200,
+        "utc": "2026-10-21T13:13:24.860Z"
+      }
+    ]
+  },
+  "coexist": {
+    "enableFirst": {
+      "click": {
+        "ok": true,
+        "checked": "false"
+      },
+      "dialog": {
+        "has": true,
+        "title": "启用「工作区文件」",
+        "lines": [
+          "把文件改回官方名，内容不变：",
+          "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md.disabled",
+          "→ H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md",
+          "官方在每一步请求前都会重新读取，改完即对之后的请求生效。"
+        ],
+        "btns": [
+          "取消",
+          "启用"
+        ]
+      },
+      "confirm": {
+        "ok": true,
+        "text": "启用"
+      },
+      "after": {
+        "disk": {
+          "active": true,
+          "disabled": false,
+          "dir": [
+            "AGENTS.md",
+            "leaf"
+          ]
+        },
+        "row": {
+          "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+          "state": "done",
+          "switchChecked": "true",
+          "switchDisabled": false
+        }
+      }
+    },
+    "coexistDisk": {
+      "active": true,
+      "disabled": true,
+      "activeSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+      "disabledSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+      "dir": [
+        "AGENTS.md",
+        "AGENTS.md.disabled",
+        "leaf"
+      ]
+    },
+    "rowCoexist": {
+      "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+      "state": "done",
+      "switchChecked": "true",
+      "switchDisabled": false
+    },
+    "click": {
+      "ok": true,
+      "checked": "true"
+    },
+    "dialog": {
+      "has": true,
+      "title": "暂停「工作区文件」",
+      "lines": [
+        "把文件改名，内容完整保留、不删除：",
+        "H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md",
+        "→ H:\\CODEX\\three-plugin-reviews-20261021\\03-agent-instructions\\fixtures\\workspace\\sub\\deep\\inner\\AGENTS.md.disabled",
+        "改名后官方探测不到它，因而不会导入对话。"
+      ],
+      "btns": [
+        "取消",
+        "暂停"
+      ]
+    },
+    "confirm": {
+      "ok": true,
+      "text": "暂停"
+    },
+    "after": {
+      "disk": {
+        "active": true,
+        "disabled": true,
+        "activeSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+        "disabledSha": "ee60f99cd8519c79cf34937fbd1864bf78336721242ba4a49a93026eb6d4a90d",
+        "dir": [
+          "AGENTS.md",
+          "AGENTS.md.disabled",
+          "leaf"
+        ]
+      },
+      "row": {
+        "text": "7 sub\\deep\\inner\\AGENTS.md 工作区文件 · 只在这个子文件夹里读它 41 字节",
+        "state": "done",
+        "switchChecked": "true",
+        "switchDisabled": false
+      }
+    },
+    "net": [
+      {
+        "req": true,
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "utc": "2026-10-21T13:13:24.846Z"
+      },
+      {
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "status": 200,
+        "utc": "2026-10-21T13:13:24.860Z"
+      },
+      {
+        "req": true,
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "utc": "2026-10-21T13:13:27.875Z"
+      },
+      {
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "status": 200,
+        "utc": "2026-10-21T13:13:27.890Z"
+      },
+      {
+        "req": true,
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "utc": "2026-10-21T13:13:32.968Z"
+      },
+      {
+        "path": "/api/dsh-agent/layers",
+        "method": "PUT",
+        "status": 200,
+        "utc": "2026-10-21T13:13:32.980Z"
+      }
+    ]
+  },
+  "errors": [],
+  "consoleLog": []
+}
