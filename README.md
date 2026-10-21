@@ -11,11 +11,11 @@
 
 | 目录 | 插件 | 被测件 | 对应 issue |
 |---|---|---|---|
-| `01-claude-style/` | dsh-claude-style | npm `dsh-claude-style@0.17.0` | #1（见文末链接） |
-| `02-sticky-note/` | dsh-sticky-note | `Meredith2328/dsh-sticky-note` 0.6.0 @ `995ba55` | #2 |
-| `03-message-preview/` | dsh-message-preview | `asukasec/dsh-message-preview` 0.1.1 @ `dfdb543` | #3 |
-| `04-spotlight/` | dsh-spotlight | npm `@0xsline/dsh-spotlight@0.0.2` | #4 |
-| `05-theme-studio/` | dsh-theme-plugin | `BeiZi6/dsh-theme-plugin` 0.1.0 @ `b3e7e14` | #5 |
+| `01-claude-style/` | dsh-claude-style | npm `dsh-claude-style@0.17.0` | [#1425](https://github.com/FuRongJun-1999/dsh-bounty/issues/1425) |
+| `02-sticky-note/` | dsh-sticky-note | `Meredith2328/dsh-sticky-note` 0.6.0 @ `995ba55` | [#1426](https://github.com/FuRongJun-1999/dsh-bounty/issues/1426) |
+| `03-message-preview/` | dsh-message-preview | `asukasec/dsh-message-preview` 0.1.1 @ `dfdb543` | [#1427](https://github.com/FuRongJun-1999/dsh-bounty/issues/1427) |
+| `04-spotlight/` | dsh-spotlight | npm `@0xsline/dsh-spotlight@0.0.2` | [#1428](https://github.com/FuRongJun-1999/dsh-bounty/issues/1428) |
+| `05-theme-studio/` | dsh-theme-plugin | `BeiZi6/dsh-theme-plugin` 0.1.0 @ `b3e7e14` | [#1429](https://github.com/FuRongJun-1999/dsh-bounty/issues/1429) |
 
 每个目录下的 `README.md` 说明文件与结论的对应关系。截图与 JSON 同名成对出现：PNG 是页面状态，JSON 是同一次采集的 DOM／计算样式／存储／控制台／网络读数。
 
